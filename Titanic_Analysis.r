@@ -3,6 +3,7 @@
 # Student Name: Cyrus Kwan
 # Student ID: 45200165
 # Last Modified: 30/03/2021
+# Accessible via: https://github.com/MQCyrusKwan/BUSA3020-Assessment-2---Predictive-Analysis
 
 # Install package manager
 install.packages("pacman")
