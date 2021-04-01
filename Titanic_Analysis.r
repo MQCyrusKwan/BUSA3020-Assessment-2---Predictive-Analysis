@@ -31,3 +31,27 @@ list_NA <- function(dataframe){
     new_list_NA <- colnames(dataframe)[apply(dataframe, 2, anyNA)]
     return(new_list_NA)
 }
+
+plot_omitting_NA <- function(column){
+    # Returns bar chart of the parsed column excluding NA data
+    # Best used for categorical data
+    new_plot <- plot(
+        as.factor(
+            na.omit(column)
+            ),
+            main = paste("Plot of ", toString(substitute(column))
+            )
+        )
+
+    return(new_plot)
+}
+
+hist_omitting_NA <- function(column){
+    # Returns histogram of the parsed column excluding NA data
+    # Best used for numerical data
+    new_hist <- hist(
+        na.omit(column),
+        main = paste("Histogram of ", toString(substitute(column)))
+        )
+    return(new_hist)
+}
