@@ -1,0 +1,917 @@
+"","Survived","Passenger.Class","Name","Sex","Age","Passenger.Fare","Port.of.Embarkation","Survived.dum","Title","Family.Size","nCabins"
+"1","Yes","First","Peuchen, Major. Arthur Godfrey","Male",52,30.5,"Southampton",1,"Major",0,1
+"2","No","Third","Peacock, Mrs. Benjamin (Edith Nile)","Female",26,13.775,"Southampton",0,"Mrs",2,0
+"3","Yes","Third","Dowdell, Miss. Elizabeth","Female",30,12.475,"Southampton",1,"Miss",0,0
+"4","No","Third","Nieminen, Miss. Manta Josefina","Female",29,7.925,"Southampton",0,"Miss",0,0
+"5","No","Second","Jarvis, Mr. John Denzil","Male",47,15,"Southampton",0,"Mr",0,0
+"6","No","Third","Van Impe, Mr. Jean Baptiste","Male",36,24.15,"Southampton",0,"Mr",2,0
+"7","Yes","First","Rosenbaum, Miss. Edith Louise","Female",33,27.7208,"Cherbourg",1,"Miss",0,1
+"8","No","Third","Conlon, Mr. Thomas Henry","Male",31,7.7333,"Queenstown",0,"Mr",0,0
+"9","No","First","Allison, Mrs. Hudson J C (Bessie Waldo Daniels)","Female",25,151.55,"Southampton",0,"Mrs",3,2
+"10","No","Third","Rekic, Mr. Tido","Male",38,7.8958,"Southampton",0,"Mr",0,0
+"11","Yes","Third","Baclini, Miss. Helene Barbara","Female",0.75,19.2583,"Cherbourg",1,"Miss",3,0
+"12","No","First","Dulles, Mr. William Crothers","Male",39,29.7,"Cherbourg",0,"Mr",0,1
+"13","No","Second","Carter, Mrs. Ernest Courtenay (Lilian Hughes)","Female",44,26,"Southampton",0,"Mrs",1,0
+"14","No","Third","Hakkarainen, Mr. Pekka Pietari","Male",28,15.85,"Southampton",0,"Mr",1,0
+"15","No","Third","Dakic, Mr. Branko","Male",19,10.1708,"Southampton",0,"Mr",0,0
+"16","Yes","Second","Troutt, Miss. Edwina Celia ""Winnie""","Female",27,10.5,"Southampton",1,"Miss",0,1
+"17","No","Third","Lane, Mr. Patrick","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"18","No","Third","Wenzel, Mr. Linhart","Male",32.5,9.5,"Southampton",0,"Mr",0,0
+"19","No","First","Maguire, Mr. John Edward","Male",30,26,"Southampton",0,"Mr",0,1
+"20","Yes","Third","Finoli, Mr. Luigi","Male",24,7.05,"Southampton",1,"Mr",0,0
+"21","No","Third","Somerton, Mr. Francis William","Male",30,8.05,"Southampton",0,"Mr",0,0
+"22","Yes","First","Ward, Miss. Anna","Female",35,512.3292,"Cherbourg",1,"Miss",0,0
+"23","Yes","First","Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons)","Female",45,52.5542,"Southampton",1,"Mrs",1,1
+"24","Yes","Second","Weisz, Mrs. Leopold (Mathilde Francoise Pede)","Female",29,26,"Southampton",1,"Mrs",1,0
+"25","No","Third","Odahl, Mr. Nils Martin","Male",23,9.225,"Southampton",0,"Mr",0,0
+"26","No","Second","Navratil, Mr. Michel (""Louis M Hoffman"")","Male",36.5,26,"Southampton",0,"Mr",2,1
+"27","Yes","Third","Johnson, Master. Harold Theodor","Male",4,11.1333,"Southampton",1,"Master",2,0
+"28","No","Third","Meo, Mr. Alfonzo","Male",55.5,8.05,"Southampton",0,"Mr",0,0
+"29","Yes","Third","Lindqvist, Mr. Eino William","Male",20,7.925,"Southampton",1,"Mr",1,0
+"30","No","Third","Ling, Mr. Lee","Male",28,56.4958,"Southampton",0,"Mr",0,0
+"31","No","Second","Ware, Mr. John James","Male",30,21,"Southampton",0,"Mr",1,0
+"32","Yes","First","Chibnall, Mrs. (Edith Martha Bowerman)","Female",36,55,"Southampton",1,"Mrs",1,1
+"33","No","Third","Karlsson, Mr. Nils August","Male",22,7.5208,"Southampton",0,"Mr",0,0
+"34","Yes","First","Bucknell, Mrs. William Robert (Emma Eliza Ward)","Female",60,76.2917,"Cherbourg",1,"Mrs",0,1
+"35","Yes","First","Bowerman, Miss. Elsie Edith","Female",22,55,"Southampton",1,"Miss",1,1
+"36","Yes","Third","Asplund, Miss. Lillian Gertrud","Female",5,31.3875,"Southampton",1,"Miss",6,0
+"37","No","Second","McCrae, Mr. Arthur Gordon","Male",32,13.5,"Southampton",0,"Mr",0,0
+"38","No","Third","Ibrahim Shawah, Mr. Yousseff","Male",30,7.2292,"Cherbourg",0,"Mr",0,0
+"39","Yes","Third","Jansson, Mr. Carl Olof","Male",21,7.7958,"Southampton",1,"Mr",0,0
+"40","No","Second","Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)","Female",27,21,"Southampton",0,"Mrs",1,0
+"41","Yes","Third","Karun, Mr. Franz","Male",39,13.4167,"Cherbourg",1,"Mr",1,0
+"42","No","Third","Johnston, Mrs. Andrew G (Elizabeth ""Lily"" Watson)","Female",10,23.45,"Southampton",0,"Mrs",3,0
+"43","No","First","Franklin, Mr. Thomas Parham","Male",42,26.55,"Southampton",0,"Mr",0,1
+"44","Yes","Third","Moubarek, Master. Gerios","Male",12,15.2458,"Cherbourg",1,"Master",2,0
+"45","Yes","First","Tucker, Mr. Gilbert Milligan Jr","Male",31,28.5375,"Cherbourg",1,"Mr",0,1
+"46","No","Third","Edvardsson, Mr. Gustaf Hjalmar","Male",18,7.775,"Southampton",0,"Mr",0,0
+"47","Yes","First","Rothschild, Mrs. Martin (Elizabeth L. Barrett)","Female",54,59.4,"Cherbourg",1,"Mrs",1,0
+"48","No","Third","Augustsson, Mr. Albert","Male",23,7.8542,"Southampton",0,"Mr",0,0
+"49","No","Third","Charters, Mr. David","Male",21,7.7333,"Queenstown",0,"Mr",0,0
+"50","Yes","Third","Sjoblom, Miss. Anna Sofia","Female",18,7.4958,"Southampton",1,"Miss",0,0
+"51","No","Third","Abbott, Master. Eugene Joseph","Male",13,20.25,"Southampton",0,"Master",2,0
+"52","Yes","Second","Williams, Mr. Charles Eugene","Male",26,13,"Southampton",1,"Mr",0,0
+"53","No","Second","Knight, Mr. Robert J","Male",25,0,"Southampton",0,"Mr",0,0
+"54","No","Third","Ekstrom, Mr. Johan","Male",45,6.975,"Southampton",0,"Mr",0,0
+"55","Yes","First","Snyder, Mrs. John Pillsbury (Nelle Stevenson)","Female",23,82.2667,"Southampton",1,"Mrs",1,1
+"56","No","First","Kent, Mr. Edward Austin","Male",58,29.7,"Cherbourg",0,"Mr",0,1
+"57","No","Third","Khalil, Mrs. Betros (Zahie ""Maria"" Elias)","Female",17,14.4542,"Cherbourg",0,"Mrs",1,0
+"58","No","Third","Khalil, Mr. Betros","Male",17,14.4542,"Cherbourg",0,"Mr",1,0
+"59","No","Third","Cacic, Miss. Manda","Female",21,8.6625,"Southampton",0,"Miss",0,0
+"60","No","Third","Panula, Master. Eino Viljami","Male",1,39.6875,"Southampton",0,"Master",5,0
+"61","Yes","First","Taussig, Miss. Ruth","Female",18,79.65,"Southampton",1,"Miss",2,1
+"62","No","Third","Zabour, Miss. Hileni","Female",14.5,14.4542,"Cherbourg",0,"Miss",1,0
+"63","No","Third","Dennis, Mr. William","Male",36,7.25,"Southampton",0,"Mr",0,0
+"64","Yes","Third","Turja, Miss. Anna Sofia","Female",18,9.8417,"Southampton",1,"Miss",0,0
+"65","No","Third","Ford, Mr. Edward Watson","Male",18,34.375,"Southampton",0,"Mr",4,0
+"66","Yes","Third","Baclini, Miss. Marie Catherine","Female",5,19.2583,"Cherbourg",1,"Miss",3,0
+"67","Yes","Third","Nakid, Miss. Maria (""Mary"")","Female",1,15.7417,"Cherbourg",1,"Miss",2,0
+"68","No","Third","Arnold-Franchi, Mrs. Josef (Josefine Franchi)","Female",18,17.8,"Southampton",0,"Mrs",1,0
+"69","No","Second","Giles, Mr. Edgar","Male",21,11.5,"Southampton",0,"Mr",1,0
+"70","No","Third","Dimic, Mr. Jovan","Male",42,8.6625,"Southampton",0,"Mr",0,0
+"71","No","Third","Olsvigen, Mr. Thor Anderson","Male",20,9.225,"Southampton",0,"Mr",0,0
+"72","Yes","Third","Mullens, Miss. Katherine ""Katie""","Female",22,7.7333,"Queenstown",1,"Miss",0,0
+"73","No","Third","Gheorgheff, Mr. Stanio","Male",30,7.8958,"Cherbourg",0,"Mr",0,0
+"74","No","Third","Danoff, Mr. Yoto","Male",27,7.8958,"Southampton",0,"Mr",0,0
+"75","No","Third","Boulos, Master. Akar","Male",6,15.2458,"Cherbourg",0,"Master",2,0
+"76","Yes","Third","Honkanen, Miss. Eliina","Female",27,7.925,"Southampton",1,"Miss",0,0
+"77","No","Third","Strandberg, Miss. Ida Sofia","Female",22,9.8375,"Southampton",0,"Miss",0,0
+"78","Yes","Third","Sandstrom, Miss. Beatrice Irene","Female",1,16.7,"Southampton",1,"Miss",2,1
+"79","No","First","Newell, Mr. Arthur Webster","Male",58,113.275,"Cherbourg",0,"Mr",2,1
+"80","No","First","Borebank, Mr. John James","Male",42,26.55,"Southampton",0,"Mr",0,1
+"81","Yes","Third","Sheerlinck, Mr. Jan Baptist","Male",29,9.5,"Southampton",1,"Mr",0,0
+"82","Yes","Second","Ridsdale, Miss. Lucy","Female",50,10.5,"Southampton",1,"Miss",0,0
+"83","No","Third","Birkeland, Mr. Hans Martin Monsen","Male",21,7.775,"Southampton",0,"Mr",0,0
+"84","No","Second","Givard, Mr. Hans Kristensen","Male",30,13,"Southampton",0,"Mr",0,0
+"85","Yes","First","Dodge, Dr. Washington","Male",53,81.8583,"Southampton",1,"Dr",2,1
+"86","No","Third","Sage, Master. Thomas Henry","Male",11,69.55,"Southampton",0,"Master",10,0
+"87","Yes","Third","O'Keefe, Mr. Patrick","Male",21,7.75,"Queenstown",1,"Mr",0,0
+"88","No","Third","Goodwin, Miss. Lillian Amy","Female",16,46.9,"Southampton",0,"Miss",7,0
+"89","No","Third","Robins, Mr. Alexander A","Male",50,14.5,"Southampton",0,"Mr",1,0
+"90","No","Third","Goodwin, Master. William Frederick","Male",11,46.9,"Southampton",0,"Master",7,0
+"91","Yes","Second","Drew, Master. Marshall Brines","Male",8,32.5,"Southampton",1,"Master",2,0
+"92","No","Third","Saundercock, Mr. William Henry","Male",20,8.05,"Southampton",0,"Mr",0,0
+"93","Yes","First","Dick, Mr. Albert Adrian","Male",31,57,"Southampton",1,"Mr",1,1
+"94","No","Second","Sharp, Mr. Percival James R","Male",27,26,"Southampton",0,"Mr",0,0
+"95","Yes","Third","Mockler, Miss. Helen Mary ""Ellie""","Female",19,7.8792,"Queenstown",1,"Miss",0,0
+"96","No","First","Harris, Mr. Henry Birkhardt","Male",45,83.475,"Southampton",0,"Mr",1,1
+"97","No","First","Wright, Mr. George","Male",62,26.55,"Southampton",0,"Mr",0,0
+"98","No","Third","Sage, Mr. Douglas Bullen","Male",11,69.55,"Southampton",0,"Mr",10,0
+"99","Yes","Second","Pallas y Castello, Mr. Emilio","Male",29,13.8583,"Cherbourg",1,"Mr",0,0
+"100","Yes","Third","Lundstrom, Mr. Thure Edvin","Male",32,7.5792,"Southampton",1,"Mr",0,0
+"101","No","Third","Leonard, Mr. Lionel","Male",36,0,"Southampton",0,"Mr",0,0
+"102","No","First","Head, Mr. Christopher","Male",42,42.5,"Southampton",0,"Mr",0,1
+"103","Yes","Third","Asplund, Mr. Johan Charles","Male",23,7.7958,"Southampton",1,"Mr",0,0
+"104","Yes","Second","Wright, Miss. Marion","Female",26,13.5,"Southampton",1,"Miss",0,0
+"105","No","First","Natsch, Mr. Charles H","Male",37,29.7,"Cherbourg",0,"Mr",1,1
+"106","No","Third","Allen, Mr. William Henry","Male",35,8.05,"Southampton",0,"Mr",0,0
+"107","Yes","Third","Assaf Khalil, Mrs. Mariana (""Miriam"")","Female",45,7.225,"Cherbourg",1,"Mrs",0,0
+"108","Yes","First","Wick, Miss. Mary Natalie","Female",31,164.8667,"Southampton",1,"Miss",2,1
+"109","No","Second","Collander, Mr. Erik Gustaf","Male",28,13,"Southampton",0,"Mr",0,0
+"110","No","Second","Mangiavacchi, Mr. Serafino Emilio","Male",27,15.5792,"Cherbourg",0,"Mr",0,0
+"111","No","Second","Swane, Mr. George","Male",18.5,13,"Southampton",0,"Mr",0,1
+"112","No","Third","Patchett, Mr. George","Male",19,14.5,"Southampton",0,"Mr",0,0
+"113","No","Second","Mack, Mrs. (Mary)","Female",57,10.5,"Southampton",0,"Mrs",0,1
+"114","Yes","Second","Caldwell, Mr. Albert Francis","Male",26,29,"Southampton",1,"Mr",2,0
+"115","No","Third","Sawyer, Mr. Frederick Charles","Male",24.5,8.05,"Southampton",0,"Mr",0,0
+"116","No","Third","Johansson, Mr. Nils","Male",29,7.8542,"Southampton",0,"Mr",0,0
+"117","No","First","Carlsson, Mr. Frans Olof","Male",33,5,"Southampton",0,"Mr",0,3
+"118","Yes","First","Flegenheim, Mrs. Alfred (Antoinette)","Female",33,31.6833,"Southampton",1,"Mrs",0,0
+"119","Yes","Second","Renouf, Mrs. Peter Henry (Lillian Jefferys)","Female",30,21,"Southampton",1,"Mrs",3,0
+"120","Yes","Third","Thorneycroft, Mrs. Percival (Florence Kate White)","Female",24,16.1,"Southampton",1,"Mrs",1,0
+"121","No","Third","Webber, Mr. James","Male",26,8.05,"Southampton",0,"Mr",0,0
+"122","Yes","Second","Duran y More, Miss. Florentina","Female",30,13.8583,"Cherbourg",1,"Miss",1,0
+"123","No","Third","Palsson, Mrs. Nils (Alma Cornelia Berglund)","Female",29,21.075,"Southampton",0,"Mrs",4,0
+"124","No","Third","Gustafsson, Mr. Anders Vilhelm","Male",37,7.925,"Southampton",0,"Mr",2,0
+"125","Yes","First","Bishop, Mrs. Dickinson H (Helen Walton)","Female",19,91.0792,"Cherbourg",1,"Mrs",1,1
+"126","No","Third","Rice, Master. Eric","Male",7,29.125,"Queenstown",0,"Master",5,0
+"127","No","Third","Goodwin, Master. Harold Victor","Male",9,46.9,"Southampton",0,"Master",7,0
+"128","No","Third","Sivic, Mr. Husein","Male",40,7.8958,"Southampton",0,"Mr",0,0
+"129","Yes","First","Allison, Master. Hudson Trevor","Male",0.9167,151.55,"Southampton",1,"Master",3,2
+"130","No","Third","Larsson, Mr. Bengt Edvin","Male",29,7.775,"Southampton",0,"Mr",0,0
+"131","No","Third","Peacock, Master. Alfred Edward","Male",0.75,13.775,"Southampton",0,"Master",2,0
+"132","No","First","Payne, Mr. Vivian Ponsonby","Male",23,93.5,"Southampton",0,"Mr",0,1
+"133","No","Third","Ilieff, Mr. Ylio","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"134","No","Third","Attalah, Miss. Malake","Female",17,14.4583,"Cherbourg",0,"Miss",0,0
+"135","Yes","Third","Nakid, Mr. Sahid","Male",20,15.7417,"Cherbourg",1,"Mr",2,0
+"136","No","Second","Nicholls, Mr. Joseph Charles","Male",19,36.75,"Southampton",0,"Mr",2,0
+"137","No","Third","Sage, Miss. Constance Gladys","Female",9,69.55,"Southampton",0,"Miss",10,0
+"138","Yes","Second","Abelson, Mrs. Samuel (Hannah Wizosky)","Female",28,24,"Cherbourg",1,"Mrs",1,0
+"139","Yes","First","Barber, Miss. Ellen ""Nellie""","Female",26,78.85,"Southampton",1,"Miss",0,0
+"140","Yes","Second","Bystrom, Mrs. (Karolina)","Female",42,13,"Southampton",1,"Mrs",0,0
+"141","No","Second","Lahtinen, Rev. William","Male",30,26,"Southampton",0,"Rev",2,0
+"142","No","First","Holverson, Mr. Alexander Oskar","Male",42,52,"Southampton",0,"Mr",1,0
+"143","No","Third","Naughton, Miss. Hannah","Female",30.5,7.75,"Queenstown",0,"Miss",0,0
+"144","No","Second","Turpin, Mr. William John Robert","Male",29,21,"Southampton",0,"Mr",1,0
+"145","Yes","Third","Abrahamsson, Mr. Abraham August Johannes","Male",20,7.925,"Southampton",1,"Mr",0,0
+"146","No","Second","Peruschitz, Rev. Joseph Maria","Male",41,13,"Southampton",0,"Rev",0,0
+"147","No","First","Brady, Mr. John Bertram","Male",41,30.5,"Southampton",0,"Mr",0,1
+"148","No","Second","Downton, Mr. William James","Male",54,26,"Southampton",0,"Mr",0,0
+"149","Yes","First","Oliva y Ocana, Dona. Fermina","Female",39,108.9,"Cherbourg",1,"Dona",0,1
+"150","Yes","First","Schabert, Mrs. Paul (Emma Mock)","Female",35,57.75,"Cherbourg",1,"Mrs",1,1
+"151","Yes","Second","Laroche, Miss. Louise","Female",1,41.5792,"Cherbourg",1,"Miss",3,0
+"152","Yes","Second","Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)","Female",29,26,"Southampton",1,"Mrs",1,0
+"153","No","Second","Cunningham, Mr. Alfred Fleming","Male",26,0,"Southampton",0,"Mr",0,0
+"154","No","First","Roebling, Mr. Washington Augustus II","Male",31,50.4958,"Southampton",0,"Mr",0,1
+"155","No","Third","Nilsson, Mr. August Ferdinand","Male",21,7.8542,"Southampton",0,"Mr",0,0
+"156","No","Third","Skoog, Master. Karl Thorsten","Male",10,27.9,"Southampton",0,"Master",5,0
+"157","Yes","First","Willard, Miss. Constance","Female",21,26.55,"Southampton",1,"Miss",0,0
+"158","Yes","Third","Connolly, Miss. Kate","Female",22,7.75,"Queenstown",1,"Miss",0,0
+"159","No","Third","Chronopoulos, Mr. Apostolos","Male",26,14.4542,"Cherbourg",0,"Mr",1,0
+"160","Yes","Third","de Messemaeker, Mr. Guillaume Joseph","Male",36.5,17.4,"Southampton",1,"Mr",1,0
+"161","No","Second","Harper, Rev. John","Male",28,33,"Southampton",0,"Rev",1,0
+"162","Yes","Third","Johansson Palmquist, Mr. Oskar Leander","Male",26,7.775,"Southampton",1,"Mr",0,0
+"163","Yes","First","Astor, Mrs. John Jacob (Madeleine Talmadge Force)","Female",18,227.525,"Cherbourg",1,"Mrs",1,2
+"164","No","Third","Vendel, Mr. Olof Edvin","Male",20,7.8542,"Southampton",0,"Mr",0,0
+"165","Yes","Third","Duquemin, Mr. Joseph","Male",24,7.55,"Southampton",1,"Mr",0,0
+"166","Yes","First","Behr, Mr. Karl Howell","Male",26,30,"Cherbourg",1,"Mr",0,1
+"167","No","Third","Bjorklund, Mr. Ernst Herbert","Male",18,7.75,"Southampton",0,"Mr",0,0
+"168","No","Third","Samaan, Mr. Youssef","Male",17,21.6792,"Cherbourg",0,"Mr",2,0
+"169","No","Second","Pain, Dr. Alfred","Male",23,10.5,"Southampton",0,"Dr",0,0
+"170","Yes","Second","Parrish, Mrs. (Lutie Davis)","Female",50,26,"Southampton",1,"Mrs",1,0
+"171","Yes","Third","Madsen, Mr. Fridtjof Arne","Male",24,7.1417,"Southampton",1,"Mr",0,0
+"172","No","Second","Pulbaum, Mr. Franz","Male",27,15.0333,"Cherbourg",0,"Mr",0,0
+"173","No","Third","Maenpaa, Mr. Matti Alexanteri","Male",22,7.125,"Southampton",0,"Mr",0,0
+"174","No","Third","Mineff, Mr. Ivan","Male",24,7.8958,"Southampton",0,"Mr",0,0
+"175","No","Third","Morrow, Mr. Thomas Rowan","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"176","No","Third","Delalic, Mr. Redjo","Male",25,7.8958,"Southampton",0,"Mr",0,0
+"177","No","Third","Meek, Mrs. Thomas (Annie Louise Rowley)","Female",28,8.05,"Southampton",0,"Mrs",0,0
+"178","Yes","Second","Louch, Mrs. Charles Alexander (Alice Adelaide Slow)","Female",42,26,"Southampton",1,"Mrs",1,0
+"179","Yes","First","Crosby, Miss. Harriet R","Female",36,71,"Southampton",1,"Miss",2,1
+"180","No","Second","Fahlstrom, Mr. Arne Jonas","Male",18,13,"Southampton",0,"Mr",0,0
+"181","No","Third","Saether, Mr. Simon Sivertsen","Male",38.5,7.25,"Southampton",0,"Mr",0,0
+"182","Yes","First","Taylor, Mr. Elmer Zebley","Male",48,52,"Southampton",1,"Mr",1,1
+"183","No","Third","Williams, Mr. Howard Hugh ""Harry""","Male",26,8.05,"Southampton",0,"Mr",0,0
+"184","No","Third","Karaic, Mr. Milan","Male",30,7.8958,"Southampton",0,"Mr",0,0
+"185","No","Second","Howard, Mrs. Benjamin (Ellen Truelove Arman)","Female",60,26,"Southampton",0,"Mrs",1,0
+"186","Yes","Third","Abrahim, Mrs. Joseph (Sophie Halaut Easu)","Female",18,7.2292,"Cherbourg",1,"Mrs",0,0
+"187","No","Second","Moraweck, Dr. Ernest","Male",54,14,"Southampton",0,"Dr",0,0
+"188","No","Second","Corey, Mrs. Percy C (Mary Phyllis Elizabeth Miller)","Female",27,21,"Southampton",0,"Mrs",0,0
+"189","No","Third","Sage, Mr. George John Jr","Male",11,69.55,"Southampton",0,"Mr",10,0
+"190","No","Second","Fox, Mr. Stanley Hubert","Male",36,13,"Southampton",0,"Mr",0,0
+"191","Yes","First","Harris, Mrs. Henry Birkhardt (Irene Wallach)","Female",35,83.475,"Southampton",1,"Mrs",1,1
+"192","No","Third","Naidenoff, Mr. Penko","Male",22,7.8958,"Southampton",0,"Mr",0,0
+"193","Yes","Third","Dean, Master. Bertram Vere","Male",1,20.575,"Southampton",1,"Master",3,0
+"194","No","Third","Markoff, Mr. Marin","Male",35,7.8958,"Cherbourg",0,"Mr",0,0
+"195","Yes","First","Salomon, Mr. Abraham L","Male",45,26,"Southampton",1,"Mr",0,0
+"196","Yes","Third","Hee, Mr. Ling","Male",30,56.4958,"Southampton",1,"Mr",0,0
+"197","No","Third","Kraeff, Mr. Theodor","Male",30,7.8958,"Cherbourg",0,"Mr",0,0
+"198","No","Third","Rice, Mrs. William (Margaret Norton)","Female",39,29.125,"Queenstown",0,"Mrs",5,0
+"199","No","Third","Gustafsson, Mr. Johan Birger","Male",28,7.925,"Southampton",0,"Mr",2,0
+"200","No","Third","Dintcheff, Mr. Valtcho","Male",43,7.8958,"Southampton",0,"Mr",0,0
+"201","Yes","Second","Mellors, Mr. William John","Male",19,10.5,"Southampton",1,"Mr",0,0
+"202","Yes","Third","Lang, Mr. Fang","Male",26,56.4958,"Southampton",1,"Mr",0,0
+"203","Yes","First","Aubart, Mme. Leontine Pauline","Female",24,69.3,"Cherbourg",1,"Mme",0,1
+"204","No","First","Case, Mr. Howard Brown","Male",49,26,"Southampton",0,"Mr",0,0
+"205","No","Third","Makinen, Mr. Kalle Edvard","Male",29,7.925,"Southampton",0,"Mr",0,0
+"206","No","First","Van der hoef, Mr. Wyckoff","Male",61,33.5,"Southampton",0,"Mr",0,1
+"207","No","Third","Stanley, Mr. Edward Roland","Male",21,8.05,"Southampton",0,"Mr",0,0
+"208","No","Third","Willey, Mr. Edward","Male",30,7.55,"Southampton",0,"Mr",0,0
+"209","No","Second","Troupiansky, Mr. Moses Aaron","Male",23,13,"Southampton",0,"Mr",0,0
+"210","No","First","Smart, Mr. John Montgomery","Male",56,26.55,"Southampton",0,"Mr",0,0
+"211","No","First","Smith, Mr. Lucien Philip","Male",24,60,"Southampton",0,"Mr",1,1
+"212","No","Second","Greenberg, Mr. Samuel","Male",52,13,"Southampton",0,"Mr",0,0
+"213","No","Third","Kelly, Mr. James","Male",44,8.05,"Southampton",0,"Mr",0,0
+"214","Yes","Third","Touma, Mrs. Darwis (Hanne Youssef Razi)","Female",29,15.2458,"Cherbourg",1,"Mrs",2,0
+"215","Yes","First","Ismay, Mr. Joseph Bruce","Male",49,0,"Southampton",1,"Mr",0,3
+"216","No","Third","Kilgannon, Mr. Thomas J","Male",25,7.7375,"Queenstown",0,"Mr",0,0
+"217","Yes","First","Gibson, Mrs. Leonard (Pauline C Boeson)","Female",45,59.4,"Cherbourg",1,"Mrs",1,0
+"218","Yes","First","Omont, Mr. Alfred Fernand","Male",26,25.7417,"Cherbourg",1,"Mr",0,0
+"219","No","Second","Louch, Mr. Charles Alexander","Male",50,26,"Southampton",0,"Mr",1,0
+"220","Yes","First","Ryerson, Miss. Susan Parker ""Suzette""","Female",21,262.375,"Cherbourg",1,"Miss",4,4
+"221","No","Third","Miles, Mr. Frank","Male",26,8.05,"Southampton",0,"Mr",0,0
+"222","No","Third","Crease, Mr. Ernest James","Male",19,8.1583,"Southampton",0,"Mr",0,0
+"223","No","First","Long, Mr. Milton Clyde","Male",29,30,"Southampton",0,"Mr",0,1
+"224","No","Third","O'Connor, Mr. Patrick","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"225","No","Second","Sweet, Mr. George Frederick","Male",14,65,"Southampton",0,"Mr",0,0
+"226","No","First","Rothschild, Mr. Martin","Male",55,59.4,"Cherbourg",0,"Mr",1,0
+"227","No","Third","Rice, Master. Eugene","Male",2,29.125,"Queenstown",0,"Master",5,0
+"228","Yes","First","Hippach, Mrs. Louis Albert (Ida Sophia Fischer)","Female",44,57.9792,"Cherbourg",1,"Mrs",1,1
+"229","Yes","Second","Wells, Mrs. Arthur Henry (""Addie"" Dart Trevaskis)","Female",29,23,"Southampton",1,"Mrs",2,0
+"230","No","Third","Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)","Female",39,31.275,"Southampton",0,"Mrs",6,0
+"231","No","Third","Panula, Master. Juha Niilo","Male",7,39.6875,"Southampton",0,"Master",5,0
+"232","Yes","Third","Moor, Mrs. (Beila)","Female",27,12.475,"Southampton",1,"Mrs",1,1
+"233","Yes","Third","Najib, Miss. Adele Kiamie ""Jane""","Female",15,7.225,"Cherbourg",1,"Miss",0,0
+"234","Yes","Third","Andersson, Mr. August Edvard (""Wennerstrom"")","Male",27,7.7958,"Southampton",1,"Mr",0,0
+"235","Yes","Second","Phillips, Miss. Alice Frances Louisa","Female",21,21,"Southampton",1,"Miss",1,0
+"236","No","First","Cumings, Mr. John Bradley","Male",39,71.2833,"Cherbourg",0,"Mr",1,1
+"237","No","Third","Cor, Mr. Ivan","Male",27,7.8958,"Southampton",0,"Mr",0,0
+"238","No","Third","O'Connor, Mr. Maurice","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"239","No","First","Rowe, Mr. Alfred G","Male",33,26.55,"Southampton",0,"Mr",0,0
+"240","No","Third","Brocklebank, Mr. William Alfred","Male",35,8.05,"Southampton",0,"Mr",0,0
+"241","Yes","Third","Abbott, Mrs. Stanton (Rosa Hunt)","Female",35,20.25,"Southampton",1,"Mrs",2,0
+"242","No","Second","Fillbrook, Mr. Joseph Charles","Male",18,10.5,"Southampton",0,"Mr",0,0
+"243","Yes","First","Beckwith, Mrs. Richard Leonard (Sallie Monypeny)","Female",47,52.5542,"Southampton",1,"Mrs",2,1
+"244","No","Third","Vander Planke, Mr. Leo Edmondus","Male",16,18,"Southampton",0,"Mr",2,0
+"245","No","First","Meyer, Mr. Edgar Joseph","Male",28,82.1708,"Cherbourg",0,"Mr",1,0
+"246","No","First","Weir, Col. John","Male",60,26.55,"Southampton",0,"Col",0,0
+"247","No","Third","Rosblom, Miss. Salli Helena","Female",2,20.2125,"Southampton",0,"Miss",2,0
+"248","Yes","Third","Kelly, Miss. Anna Katherine ""Annie Kate""","Female",22,7.75,"Queenstown",1,"Miss",0,0
+"249","No","Third","Nirva, Mr. Iisakki Antino Aijo","Male",41,7.125,"Southampton",0,"Mr",0,0
+"250","Yes","First","Frauenthal, Mrs. Henry William (Clara Heinsheimer)","Female",35,133.65,"Southampton",1,"Mrs",1,0
+"251","No","Third","Duane, Mr. Frank","Male",65,7.75,"Queenstown",0,"Mr",0,0
+"252","No","Third","Barbara, Mrs. (Catherine David)","Female",45,14.4542,"Cherbourg",0,"Mrs",1,0
+"253","No","Third","Sage, Mr. Frederick","Male",11,69.55,"Southampton",0,"Mr",10,0
+"254","Yes","Second","Padro y Manent, Mr. Julian","Male",22,13.8625,"Cherbourg",1,"Mr",0,0
+"255","Yes","Third","O'Dwyer, Miss. Ellen ""Nellie""","Female",19,7.8792,"Queenstown",1,"Miss",0,0
+"256","Yes","First","Appleton, Mrs. Edward Dale (Charlotte Lamson)","Female",53,51.4792,"Southampton",1,"Mrs",2,1
+"257","Yes","Second","Quick, Mrs. Frederick Charles (Jane Richards)","Female",33,26,"Southampton",1,"Mrs",2,0
+"258","Yes","Third","Chip, Mr. Chang","Male",32,56.4958,"Southampton",1,"Mr",0,0
+"259","No","Second","Pernot, Mr. Rene","Male",29,15.05,"Cherbourg",0,"Mr",0,0
+"260","Yes","First","Thayer, Mr. John Borland Jr","Male",17,110.8833,"Cherbourg",1,"Mr",2,1
+"261","Yes","Second","Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)","Female",40,15.75,"Southampton",1,"Mrs",0,0
+"262","No","Third","Tikkanen, Mr. Juho","Male",32,7.925,"Southampton",0,"Mr",0,0
+"263","No","Third","Kassem, Mr. Fared","Male",23.5,7.2292,"Cherbourg",0,"Mr",0,0
+"264","Yes","Second","Leitch, Miss. Jessie Wills","Female",20,33,"Southampton",1,"Miss",0,0
+"265","Yes","First","Hays, Mrs. Charles Melville (Clara Jennings Gregg)","Female",52,93.5,"Southampton",1,"Mrs",2,1
+"266","Yes","Second","Richards, Master. William Rowe","Male",3,18.75,"Southampton",1,"Master",2,0
+"267","No","First","Klaber, Mr. Herman","Male",45,26.55,"Southampton",0,"Mr",0,1
+"268","No","Third","Christmann, Mr. Emil","Male",29,8.05,"Southampton",0,"Mr",0,0
+"269","No","Third","Goodwin, Master. Sidney Leonard","Male",1,46.9,"Southampton",0,"Master",7,0
+"270","Yes","Second","Beesley, Mr. Lawrence","Male",34,13,"Southampton",1,"Mr",0,1
+"271","Yes","Third","Moubarek, Master. Halim Gonios (""William George"")","Male",12,15.2458,"Cherbourg",1,"Master",2,0
+"272","No","First","Lewy, Mr. Ervin G","Male",40,27.7208,"Cherbourg",0,"Mr",0,0
+"273","Yes","Second","Wells, Master. Ralph Lester","Male",2,23,"Southampton",1,"Master",2,0
+"274","Yes","Third","Moss, Mr. Albert Johan","Male",26,7.775,"Southampton",1,"Mr",0,0
+"275","No","Second","Byles, Rev. Thomas Roussel Davids","Male",42,13,"Southampton",0,"Rev",0,0
+"276","No","Third","Asplund, Master. Filip Oscar","Male",13,31.3875,"Southampton",0,"Master",6,0
+"277","No","First","Davidson, Mr. Thornton","Male",31,52,"Southampton",0,"Mr",1,1
+"278","Yes","First","Frolicher-Stehli, Mr. Maxmillian","Male",60,79.2,"Cherbourg",1,"Mr",2,1
+"279","No","Third","Rice, Master. George Hugh","Male",8,29.125,"Queenstown",0,"Master",5,0
+"280","No","First","Walker, Mr. William Anderson","Male",47,34.0208,"Southampton",0,"Mr",0,1
+"281","No","First","Giglio, Mr. Victor","Male",24,79.2,"Cherbourg",0,"Mr",0,1
+"282","No","Third","Windelov, Mr. Einar","Male",21,7.25,"Southampton",0,"Mr",0,0
+"283","No","Third","Nosworthy, Mr. Richard Cater","Male",21,7.8,"Southampton",0,"Mr",0,0
+"284","No","Third","Razi, Mr. Raihed","Male",23.5,7.2292,"Cherbourg",0,"Mr",0,0
+"285","No","Third","Ford, Miss. Robina Maggie ""Ruby""","Female",9,34.375,"Southampton",0,"Miss",4,0
+"286","No","Third","Bourke, Miss. Mary","Female",30.5,7.75,"Queenstown",0,"Miss",2,0
+"287","No","First","Pears, Mr. Thomas Clinton","Male",29,66.6,"Southampton",0,"Mr",1,1
+"288","No","First","Thayer, Mr. John Borland","Male",49,110.8833,"Cherbourg",0,"Mr",2,1
+"289","No","Third","Celotti, Mr. Francesco","Male",24,8.05,"Southampton",0,"Mr",0,0
+"290","No","Third","Wittevrongel, Mr. Camille","Male",36,9.5,"Southampton",0,"Mr",0,0
+"291","No","Second","Gilbert, Mr. William","Male",47,10.5,"Southampton",0,"Mr",0,0
+"292","Yes","Third","Olsson, Mr. Oscar Wilhelm","Male",32,7.775,"Southampton",1,"Mr",0,0
+"293","No","Second","Reeves, Mr. David","Male",36,10.5,"Southampton",0,"Mr",0,0
+"294","No","Third","Lobb, Mrs. William Arthur (Cordelia K Stanlick)","Female",26,16.1,"Southampton",0,"Mrs",1,0
+"295","Yes","Third","Peter, Master. Michael J","Male",12,22.3583,"Cherbourg",1,"Master",2,0
+"296","No","First","Chisholm, Mr. Roderick Robert Crispin","Male",46,0,"Southampton",0,"Mr",0,0
+"297","No","Third","Bourke, Mrs. John (Catherine)","Female",32,15.5,"Queenstown",0,"Mrs",2,0
+"298","Yes","Third","Ohman, Miss. Velin","Female",22,7.775,"Southampton",1,"Miss",0,0
+"299","No","Third","Doharr, Mr. Tannous","Male",23.5,7.2292,"Cherbourg",0,"Mr",0,0
+"300","No","Third","Karlsson, Mr. Julius Konrad Eugen","Male",33,7.8542,"Southampton",0,"Mr",0,0
+"301","No","First","White, Mr. Percival Wayland","Male",54,77.2875,"Southampton",0,"Mr",1,1
+"302","Yes","First","Fortune, Mrs. Mark (Mary McDougald)","Female",60,263,"Southampton",1,"Mrs",5,3
+"303","No","Second","de Brito, Mr. Jose Joaquim","Male",32,13,"Southampton",0,"Mr",0,0
+"304","No","Third","Connaghton, Mr. Michael","Male",31,7.75,"Queenstown",0,"Mr",0,0
+"305","No","Third","Nenkoff, Mr. Christo","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"306","Yes","First","White, Mrs. John Stuart (Ella Holmes)","Female",55,135.6333,"Cherbourg",1,"Mrs",0,1
+"307","No","Third","Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)","Female",31,18,"Southampton",0,"Mrs",1,0
+"308","Yes","Second","Portaluppi, Mr. Emilio Ilario Giuseppe","Male",30,12.7375,"Cherbourg",1,"Mr",0,0
+"309","No","Third","Turcin, Mr. Stjepan","Male",36,7.8958,"Southampton",0,"Mr",0,0
+"310","Yes","Second","Caldwell, Master. Alden Gates","Male",0.8333,29,"Southampton",1,"Master",2,0
+"311","No","Third","Stoytcheff, Mr. Ilia","Male",19,7.8958,"Southampton",0,"Mr",0,0
+"312","Yes","First","Ryerson, Miss. Emily Borie","Female",18,262.375,"Cherbourg",1,"Miss",4,4
+"313","No","Third","Torber, Mr. Ernst William","Male",44,8.05,"Southampton",0,"Mr",0,0
+"314","No","Third","Staneff, Mr. Ivan","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"315","Yes","Third","Drapkin, Miss. Jennie","Female",23,8.05,"Southampton",1,"Miss",0,0
+"316","No","Third","Braund, Mr. Owen Harris","Male",22,7.25,"Southampton",0,"Mr",1,0
+"317","Yes","Third","Mulvihill, Miss. Bertha E","Female",24,7.75,"Queenstown",1,"Miss",0,0
+"318","Yes","Second","Richards, Master. George Sibley","Male",0.8333,18.75,"Southampton",1,"Master",2,0
+"319","Yes","Third","Davison, Mrs. Thomas Henry (Mary E Finck)","Female",24,16.1,"Southampton",1,"Mrs",1,0
+"320","No","Third","Hart, Mr. Henry","Male",24,6.8583,"Queenstown",0,"Mr",0,0
+"321","Yes","Second","Beane, Mr. Edward","Male",32,26,"Southampton",1,"Mr",1,0
+"322","Yes","Second","Mallet, Mrs. Albert (Antoinette Magnin)","Female",24,37.0042,"Cherbourg",1,"Mrs",2,0
+"323","No","First","Fry, Mr. Richard","Male",38,0,"Southampton",0,"Mr",0,1
+"324","No","Second","Bailey, Mr. Percy Andrew","Male",18,11.5,"Southampton",0,"Mr",0,0
+"325","No","Second","Abelson, Mr. Samuel","Male",30,24,"Cherbourg",0,"Mr",1,0
+"326","No","Third","Bengtsson, Mr. John Viktor","Male",26,7.775,"Southampton",0,"Mr",0,0
+"327","No","Third","Goodwin, Mr. Charles Frederick","Male",40,46.9,"Southampton",0,"Mr",7,0
+"328","No","First","Reuchlin, Jonkheer. John George","Male",38,0,"Southampton",0,"Jonkheer",0,0
+"329","Yes","Second","Slayter, Miss. Hilda Mary","Female",30,12.35,"Queenstown",1,"Miss",0,0
+"330","No","Third","Corn, Mr. Harry","Male",30,8.05,"Southampton",0,"Mr",0,0
+"331","No","Third","Samaan, Mr. Elias","Male",17,21.6792,"Cherbourg",0,"Mr",2,0
+"332","No","Third","Petroff, Mr. Nedelio","Male",19,7.8958,"Southampton",0,"Mr",0,0
+"333","No","Third","Goodwin, Mrs. Frederick (Augusta Tyler)","Female",43,46.9,"Southampton",0,"Mrs",7,0
+"334","No","First","Ross, Mr. John Hugo","Male",36,40.125,"Cherbourg",0,"Mr",0,1
+"335","Yes","First","Harder, Mr. George Achilles","Male",25,55.4417,"Cherbourg",1,"Mr",1,1
+"336","No","Third","Panula, Mrs. Juha (Maria Emilia Ojala)","Female",41,39.6875,"Southampton",0,"Mrs",5,0
+"337","No","Third","Vovk, Mr. Janko","Male",22,7.8958,"Southampton",0,"Mr",0,0
+"338","Yes","Second","Jerwan, Mrs. Amin S (Marie Marthe Thuillard)","Female",23,13.7917,"Cherbourg",1,"Mrs",0,1
+"339","No","Third","Strilic, Mr. Ivan","Male",27,8.6625,"Southampton",0,"Mr",0,0
+"340","Yes","First","Bidois, Miss. Rosalie","Female",42,227.525,"Cherbourg",1,"Miss",0,0
+"341","No","Second","Kirkland, Rev. Charles Leonard","Male",57,12.35,"Queenstown",0,"Rev",0,0
+"342","Yes","Third","Jussila, Mr. Eiriik","Male",32,7.925,"Southampton",1,"Mr",0,0
+"343","No","Third","Kelly, Mr. James","Male",34.5,7.8292,"Queenstown",0,"Mr",0,0
+"344","Yes","First","Spencer, Mrs. William Augustus (Marie Eugenie)","Female",38,146.5208,"Cherbourg",1,"Mrs",1,1
+"345","No","Third","Kallio, Mr. Nikolai Erland","Male",17,7.125,"Southampton",0,"Mr",0,0
+"346","Yes","Third","Nicola-Yarred, Master. Elias","Male",12,11.2417,"Cherbourg",1,"Master",1,0
+"347","No","Third","Mitkoff, Mr. Mito","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"348","Yes","Third","Baclini, Miss. Eugenie","Female",0.75,19.2583,"Cherbourg",1,"Miss",3,0
+"349","No","Third","Reed, Mr. James George","Male",28,7.25,"Southampton",0,"Mr",0,0
+"350","Yes","Third","Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)","Female",24,15.85,"Southampton",1,"Mrs",1,0
+"351","No","Third","Lefebre, Miss. Mathilde","Female",6,25.4667,"Southampton",0,"Miss",4,0
+"352","Yes","First","Holverson, Mrs. Alexander Oskar (Mary Aline Towner)","Female",35,52,"Southampton",1,"Mrs",1,0
+"353","No","Third","Lahoud, Mr. Sarkis","Male",22.5,7.225,"Cherbourg",0,"Mr",0,0
+"354","Yes","First","Daniel, Mr. Robert Williams","Male",27,30.5,"Southampton",1,"Mr",0,0
+"355","Yes","First","Bishop, Mr. Dickinson H","Male",25,91.0792,"Cherbourg",1,"Mr",1,1
+"356","Yes","Third","Coutts, Master. William Loch ""William""","Male",3,15.9,"Southampton",1,"Master",2,0
+"357","Yes","Second","Hocking, Miss. Ellen ""Nellie""","Female",20,23,"Southampton",1,"Miss",3,0
+"358","No","Third","Kink, Mr. Vincenz","Male",26,8.6625,"Southampton",0,"Mr",2,0
+"359","No","Second","Mallet, Mr. Albert","Male",31,37.0042,"Cherbourg",0,"Mr",2,0
+"360","Yes","Second","Harris, Mr. George","Male",62,10.5,"Southampton",1,"Mr",0,0
+"361","No","Third","Pettersson, Miss. Ellen Natalia","Female",18,7.775,"Southampton",0,"Miss",0,0
+"362","No","Third","Jonsson, Mr. Nils Hilding","Male",27,7.8542,"Southampton",0,"Mr",0,0
+"363","No","Second","Slemen, Mr. Richard James","Male",35,10.5,"Southampton",0,"Mr",0,0
+"364","Yes","First","Maioni, Miss. Roberta","Female",16,86.5,"Southampton",1,"Miss",0,1
+"365","No","First","Cairns, Mr. Alexander","Male",56,31,"Southampton",0,"Mr",0,0
+"366","Yes","First","Ryerson, Master. John Borie","Male",13,262.375,"Cherbourg",1,"Master",4,4
+"367","No","Third","Morley, Mr. William","Male",34,8.05,"Southampton",0,"Mr",0,0
+"368","Yes","Second","Nourney, Mr. Alfred (""Baron von Drachstedt"")","Male",20,13.8625,"Cherbourg",1,"Mr",0,1
+"369","Yes","Second","Hamalainen, Master. Viljo","Male",0.6667,14.5,"Southampton",1,"Master",2,0
+"370","No","Third","Stankovic, Mr. Ivan","Male",33,8.6625,"Cherbourg",0,"Mr",0,0
+"371","No","Third","Rasmussen, Mrs. (Lena Jacobsen Solvang)","Female",28,8.1125,"Southampton",0,"Mrs",0,0
+"372","No","Third","Carr, Miss. Jeannie","Female",37,7.75,"Queenstown",0,"Miss",0,0
+"373","No","First","Molson, Mr. Harry Markland","Male",55,30.5,"Southampton",0,"Mr",0,1
+"374","No","Third","Pearce, Mr. Ernest","Male",25,7,"Southampton",0,"Mr",0,0
+"375","No","Second","Rogers, Mr. Reginald Harry","Male",19,10.5,"Southampton",0,"Mr",0,0
+"376","Yes","Second","Pinsky, Mrs. (Rosa)","Female",32,13,"Southampton",1,"Mrs",0,0
+"377","No","Second","Parkes, Mr. Francis ""Frank""","Male",28,0,"Southampton",0,"Mr",0,0
+"378","No","First","Baumann, Mr. John D","Male",46,25.925,"Southampton",0,"Mr",0,0
+"379","No","Third","Adahl, Mr. Mauritz Nils Martin","Male",30,7.25,"Southampton",0,"Mr",0,0
+"380","Yes","Third","Hyman, Mr. Abraham","Male",32,7.8875,"Southampton",1,"Mr",0,0
+"381","No","Third","Moutal, Mr. Rahamin Haim","Male",26,8.05,"Southampton",0,"Mr",0,0
+"382","Yes","First","Stengel, Mr. Charles Emil Henry","Male",54,55.4417,"Cherbourg",1,"Mr",1,1
+"383","No","Third","Andersson, Miss. Ebba Iris Alfrida","Female",6,31.275,"Southampton",0,"Miss",6,0
+"384","Yes","First","Eustis, Miss. Elizabeth Mussey","Female",54,78.2667,"Cherbourg",1,"Miss",1,1
+"385","No","Third","Ryan, Mr. Patrick","Male",31,24.15,"Queenstown",0,"Mr",0,0
+"386","No","Third","Ali, Mr. William","Male",25,7.05,"Southampton",0,"Mr",0,0
+"387","Yes","First","Dodge, Master. Washington","Male",4,81.8583,"Southampton",1,"Master",2,1
+"388","No","Third","Andersson, Mr. Anders Johan","Male",39,31.275,"Southampton",0,"Mr",6,0
+"389","No","Second","Bowenur, Mr. Solomon","Male",42,13,"Southampton",0,"Mr",0,0
+"390","Yes","First","Greenfield, Mrs. Leo David (Blanche Strouse)","Female",45,63.3583,"Cherbourg",1,"Mrs",1,2
+"391","Yes","Third","Dorking, Mr. Edward Arthur","Male",19,8.05,"Southampton",1,"Mr",0,0
+"392","No","Second","Eitemiller, Mr. George Floyd","Male",23,13,"Southampton",0,"Mr",0,0
+"393","No","Third","Dean, Mr. Bertram Frank","Male",26,20.575,"Southampton",0,"Mr",3,0
+"394","No","Third","Tomlin, Mr. Ernest Portage","Male",30.5,8.05,"Southampton",0,"Mr",0,0
+"395","No","Second","Watson, Mr. Ennis Hastings","Male",28,0,"Southampton",0,"Mr",0,0
+"396","Yes","Second","Quick, Miss. Phyllis May","Female",2,26,"Southampton",1,"Miss",2,0
+"397","No","First","Parr, Mr. William Henry Marsh","Male",46,0,"Southampton",0,"Mr",0,0
+"398","Yes","First","Madill, Miss. Georgette Alexandra","Female",15,211.3375,"Southampton",1,"Miss",1,1
+"399","No","Second","Gillespie, Mr. William Henry","Male",34,13,"Southampton",0,"Mr",0,0
+"400","Yes","First","Snyder, Mr. John Pillsbury","Male",24,82.2667,"Southampton",1,"Mr",1,1
+"401","No","Third","Williams, Mr. Leslie","Male",28.5,16.1,"Southampton",0,"Mr",0,0
+"402","No","Third","Asim, Mr. Adola","Male",35,7.05,"Southampton",0,"Mr",0,0
+"403","No","Third","Goodwin, Miss. Jessie Allis","Female",10,46.9,"Southampton",0,"Miss",7,0
+"404","Yes","Third","Goldsmith, Mrs. Frank John (Emily Alice Brown)","Female",31,20.525,"Southampton",1,"Mrs",2,0
+"405","No","Third","Novel, Mr. Mansouer","Male",28.5,7.2292,"Cherbourg",0,"Mr",0,0
+"406","Yes","Second","Hamalainen, Mrs. William (Anna)","Female",24,14.5,"Southampton",1,"Mrs",2,0
+"407","Yes","Second","Lemore, Mrs. (Amelia Milley)","Female",34,10.5,"Southampton",1,"Mrs",0,1
+"408","No","Third","Jensen, Mr. Niels Peder","Male",48,7.8542,"Southampton",0,"Mr",0,0
+"409","Yes","Third","O'Leary, Miss. Hanora ""Norah""","Female",19,7.8292,"Queenstown",1,"Miss",0,0
+"410","No","Second","Gill, Mr. John William","Male",24,13,"Southampton",0,"Mr",0,0
+"411","No","Third","Shorney, Mr. Charles Joseph","Male",26,8.05,"Southampton",0,"Mr",0,0
+"412","Yes","First","Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead)","Female",64,26.55,"Southampton",1,"Mrs",2,1
+"413","No","Third","Hagardon, Miss. Kate","Female",17,7.7333,"Queenstown",0,"Miss",0,0
+"414","Yes","First","Barkworth, Mr. Algernon Henry Wilson","Male",80,30,"Southampton",1,"Mr",0,1
+"415","No","Third","Klasen, Miss. Gertrud Emilia","Female",1,12.1833,"Southampton",0,"Miss",2,0
+"416","Yes","Second","Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)","Female",24,27,"Southampton",1,"Mrs",3,0
+"417","Yes","Third","McCoy, Miss. Agnes","Female",16,23.25,"Queenstown",1,"Miss",2,0
+"418","Yes","Second","Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)","Female",36,26,"Southampton",1,"Mrs",1,0
+"419","Yes","Third","Peter, Miss. Anna","Female",15,22.3583,"Cherbourg",1,"Miss",2,2
+"420","No","Third","Davison, Mr. Thomas Henry","Male",28,16.1,"Southampton",0,"Mr",1,0
+"421","No","Third","Rosblom, Mr. Viktor Richard","Male",18,20.2125,"Southampton",0,"Mr",2,0
+"422","Yes","First","Hassab, Mr. Hammad","Male",27,76.7292,"Cherbourg",1,"Mr",0,1
+"423","No","Third","Elsbury, Mr. William James","Male",47,7.25,"Southampton",0,"Mr",0,0
+"424","Yes","Second","Quick, Miss. Winifred Vera","Female",8,26,"Southampton",1,"Miss",2,0
+"425","No","Third","Keefe, Mr. Arthur","Male",30,7.25,"Southampton",0,"Mr",0,0
+"426","Yes","Third","Moubarek, Mrs. George (Omine ""Amenia"" Alexander)","Female",9,15.2458,"Cherbourg",1,"Mrs",2,0
+"427","No","Third","Niklasson, Mr. Samuel","Male",28,8.05,"Southampton",0,"Mr",0,0
+"428","No","Third","Hegarty, Miss. Hanora ""Nora""","Female",18,6.75,"Queenstown",0,"Miss",0,0
+"429","Yes","Third","Stranden, Mr. Juho","Male",31,7.925,"Southampton",1,"Mr",0,0
+"430","No","Third","Zakarian, Mr. Mapriededer","Male",26.5,7.225,"Cherbourg",0,"Mr",0,0
+"431","No","Third","Davies, Mr. Joseph","Male",17,8.05,"Southampton",0,"Mr",2,0
+"432","Yes","Second","Keane, Miss. Nora A","Female",30,12.35,"Queenstown",1,"Miss",0,1
+"433","No","Third","Henry, Miss. Delia","Female",30.5,7.75,"Queenstown",0,"Miss",0,0
+"434","No","Third","Rommetvedt, Mr. Knud Paust","Male",24,7.775,"Southampton",0,"Mr",0,0
+"435","Yes","First","Harper, Mr. Henry Sleeper","Male",48,76.7292,"Cherbourg",1,"Mr",1,1
+"436","Yes","Second","Herman, Miss. Kate","Female",24,65,"Southampton",1,"Miss",3,0
+"437","Yes","Third","Niskanen, Mr. Juha","Male",39,7.925,"Southampton",1,"Mr",0,0
+"438","Yes","First","Francatelli, Miss. Laura Mabel","Female",30,56.9292,"Cherbourg",1,"Miss",0,1
+"439","Yes","First","Sagesser, Mlle. Emma","Female",24,69.3,"Cherbourg",1,"Mlle",0,1
+"440","Yes","First","Icard, Miss. Amelie","Female",38,80,"Cherbourg",1,"Miss",0,1
+"441","No","Third","Canavan, Miss. Mary","Female",21,7.75,"Queenstown",0,"Miss",0,0
+"442","No","Third","Lefebre, Master. Henry Forbes","Male",6,25.4667,"Southampton",0,"Master",4,0
+"443","Yes","First","Stengel, Mrs. Charles Emil Henry (Annie May Morris)","Female",43,55.4417,"Cherbourg",1,"Mrs",1,1
+"444","Yes","Second","Buss, Miss. Kate","Female",36,13,"Southampton",1,"Miss",0,0
+"445","Yes","Second","Hart, Mrs. Benjamin (Esther Ada Bloomfield)","Female",45,26.25,"Southampton",1,"Mrs",2,0
+"446","Yes","First","Douglas, Mrs. Walter Donald (Mahala Dutton)","Female",48,106.425,"Cherbourg",1,"Mrs",1,1
+"447","No","Third","Asplund, Mr. Carl Oscar Vilhelm Gustafsson","Male",40,31.3875,"Southampton",0,"Mr",6,0
+"448","No","Third","Foley, Mr. William","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"449","Yes","First","Futrelle, Mrs. Jacques Heath (Lily May Peel)","Female",35,53.1,"Southampton",1,"Mrs",1,1
+"450","No","Third","Panula, Master. Urho Abraham","Male",2,39.6875,"Southampton",0,"Master",5,0
+"451","No","Third","Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)","Female",28,14.4,"Southampton",0,"Mrs",2,0
+"452","Yes","Third","McDermott, Miss. Brigdet Delia","Female",22,7.7875,"Queenstown",1,"Miss",0,0
+"453","Yes","Second","Collyer, Miss. Marjorie ""Lottie""","Female",8,26.25,"Southampton",1,"Miss",2,0
+"454","No","Third","Maisner, Mr. Simon","Male",26,8.05,"Southampton",0,"Mr",0,0
+"455","Yes","Third","Coutts, Mrs. William (Winnie ""Minnie"" Treanor)","Female",36,15.9,"Southampton",1,"Mrs",2,0
+"456","No","Third","Sage, Miss. Dorothy Edith ""Dolly""","Female",9,69.55,"Southampton",0,"Miss",10,0
+"457","No","Third","Jussila, Miss. Mari Aina","Female",21,9.825,"Southampton",0,"Miss",1,0
+"458","No","First","Baxter, Mr. Quigg Edmond","Male",24,247.5208,"Cherbourg",0,"Mr",1,2
+"459","Yes","Third","Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)","Female",33,15.85,"Southampton",1,"Mrs",3,0
+"460","No","First","Lindeberg-Lind, Mr. Erik Gustaf (""Mr Edward Lingrey"")","Male",42,26.55,"Southampton",0,"Mr",0,0
+"461","Yes","Third","Mamee, Mr. Hanna","Male",22,7.2292,"Cherbourg",1,"Mr",0,0
+"462","No","Second","Karnes, Mrs. J Frank (Claire Bennett)","Female",22,21,"Southampton",0,"Mrs",0,0
+"463","Yes","Third","Cohen, Mr. Gurshon ""Gus""","Male",18,8.05,"Southampton",1,"Mr",0,0
+"464","No","Third","Oreskovic, Miss. Jelka","Female",23,8.6625,"Southampton",0,"Miss",0,0
+"465","No","Third","Risien, Mr. Samuel Beard","Male",21,14.5,"Southampton",0,"Mr",0,0
+"466","No","Third","Harmer, Mr. Abraham (David Lishin)","Male",25,7.25,"Southampton",0,"Mr",0,0
+"467","Yes","First","Taussig, Mrs. Emil (Tillie Mandelbaum)","Female",39,79.65,"Southampton",1,"Mrs",2,1
+"468","No","First","Birnbaum, Mr. Jakob","Male",25,26,"Cherbourg",0,"Mr",0,0
+"469","No","Third","Fleming, Miss. Honora","Female",30.5,7.75,"Queenstown",0,"Miss",0,0
+"470","Yes","Third","Daly, Mr. Eugene Patrick","Male",29,7.75,"Queenstown",1,"Mr",0,0
+"471","No","Third","Samaan, Mr. Hanna","Male",17,21.6792,"Cherbourg",0,"Mr",2,0
+"472","No","First","Chaffee, Mr. Herbert Fuller","Male",46,61.175,"Southampton",0,"Mr",1,1
+"473","No","Third","Hagland, Mr. Ingvald Olai Olsen","Male",28,19.9667,"Southampton",0,"Mr",1,0
+"474","No","Third","Heininen, Miss. Wendla Maria","Female",23,7.925,"Southampton",0,"Miss",0,0
+"475","No","Third","Van Impe, Miss. Catharina","Female",10,24.15,"Southampton",0,"Miss",2,0
+"476","Yes","Third","Svensson, Mr. Johan Cervin","Male",14,9.225,"Southampton",1,"Mr",0,0
+"477","Yes","Third","Tornquist, Mr. William Henry","Male",25,0,"Southampton",1,"Mr",0,0
+"478","Yes","First","Minahan, Mrs. William Edward (Lillian E Thorpe)","Female",37,90,"Queenstown",1,"Mrs",1,1
+"479","Yes","Second","Becker, Mrs. Allen Oliver (Nellie E Baumgardner)","Female",36,39,"Southampton",1,"Mrs",3,1
+"480","No","First","Straus, Mr. Isidor","Male",67,221.7792,"Southampton",0,"Mr",1,2
+"481","Yes","Second","Drew, Mrs. James Vivian (Lulu Thorne Christian)","Female",34,32.5,"Southampton",1,"Mrs",2,0
+"482","No","Third","Alhomaki, Mr. Ilmari Rudolf","Male",20,7.925,"Southampton",0,"Mr",0,0
+"483","No","First","Hipkins, Mr. William Edward","Male",55,50,"Southampton",0,"Mr",0,1
+"484","Yes","Third","Masselmani, Mrs. Fatima","Female",18,7.225,"Cherbourg",1,"Mrs",0,0
+"485","No","Second","Brown, Mr. Thomas William Solomon","Male",60,39,"Southampton",0,"Mr",2,0
+"486","No","Third","Svensson, Mr. Johan","Male",74,7.775,"Southampton",0,"Mr",0,0
+"487","No","Third","Laleff, Mr. Kristo","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"488","Yes","First","Stone, Mrs. George Nelson (Martha Evelyn)","Female",62,80,"Cherbourg",1,"Mrs",0,1
+"489","No","Second","Phillips, Mr. Escott Robert","Male",43,21,"Southampton",0,"Mr",1,0
+"490","Yes","Third","Andersson, Miss. Erna Alexandra","Female",17,7.925,"Southampton",1,"Miss",6,0
+"491","No","Third","Sivola, Mr. Antti Wilhelm","Male",21,7.925,"Southampton",0,"Mr",0,0
+"492","Yes","Second","Christy, Mrs. (Alice Frances)","Female",45,30,"Southampton",1,"Mrs",2,0
+"493","No","Third","Jussila, Miss. Katriina","Female",20,9.825,"Southampton",0,"Miss",1,0
+"494","Yes","Second","Kantor, Mrs. Sinai (Miriam Sternin)","Female",24,26,"Southampton",1,"Mrs",1,0
+"495","Yes","Second","Laroche, Miss. Simonne Marie Anne Andree","Female",3,41.5792,"Cherbourg",1,"Miss",3,0
+"496","No","Third","Rosblom, Mrs. Viktor (Helena Wilhelmina)","Female",41,20.2125,"Southampton",0,"Mrs",2,0
+"497","Yes","First","Frolicher, Miss. Hedwig Margaritha","Female",22,49.5,"Cherbourg",1,"Miss",2,1
+"498","No","Third","Cann, Mr. Ernest Charles","Male",21,8.05,"Southampton",0,"Mr",0,0
+"499","No","Third","Theobald, Mr. Thomas Leonard","Male",34,8.05,"Southampton",0,"Mr",0,0
+"500","No","First","Crosby, Capt. Edward Gifford","Male",70,71,"Southampton",0,"Capt",2,1
+"501","No","First","Crafton, Mr. John Bertram","Male",56,26.55,"Southampton",0,"Mr",0,0
+"502","No","Third","Carver, Mr. Alfred John","Male",28,7.25,"Southampton",0,"Mr",0,0
+"503","No","First","Straus, Mrs. Isidor (Rosalie Ida Blun)","Female",63,221.7792,"Southampton",0,"Mrs",1,2
+"504","No","Third","Barry, Miss. Julia","Female",27,7.8792,"Queenstown",0,"Miss",0,0
+"505","Yes","Third","Yasbeck, Mrs. Antoni (Selini Alexander)","Female",15,14.4542,"Cherbourg",1,"Mrs",1,0
+"506","No","Second","Maybery, Mr. Frank Hubert","Male",40,16,"Southampton",0,"Mr",0,0
+"507","No","Second","Morley, Mr. Henry Samuel (""Mr Henry Marshall"")","Male",39,26,"Southampton",0,"Mr",0,0
+"508","Yes","Third","Thomas, Master. Assad Alexander","Male",0.4167,8.5167,"Cherbourg",1,"Master",1,0
+"509","No","Third","Ford, Mr. William Neal","Male",16,34.375,"Southampton",0,"Mr",4,0
+"510","No","Second","Carter, Rev. Ernest Courtenay","Male",54,26,"Southampton",0,"Rev",1,0
+"511","No","Second","Weisz, Mr. Leopold","Male",27,26,"Southampton",0,"Mr",1,0
+"512","No","Third","Sage, Mrs. John (Annie Bullen)","Female",43,69.55,"Southampton",0,"Mrs",10,0
+"513","Yes","First","Cleaver, Miss. Alice","Female",22,151.55,"Southampton",1,"Miss",0,0
+"514","No","Third","Gallagher, Mr. Martin","Male",25,7.7417,"Queenstown",0,"Mr",0,0
+"515","Yes","Third","Hellstrom, Miss. Hilda Maria","Female",22,8.9625,"Southampton",1,"Miss",0,0
+"516","Yes","Third","Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)","Female",24,16.7,"Southampton",1,"Mrs",2,1
+"517","Yes","Second","Doling, Mrs. John T (Ada Julia Bone)","Female",34,23,"Southampton",1,"Mrs",1,0
+"518","No","Third","Laitinen, Miss. Kristina Sofia","Female",37,9.5875,"Southampton",0,"Miss",0,0
+"519","Yes","Third","Jermyn, Miss. Annie","Female",22,7.75,"Queenstown",1,"Miss",0,0
+"520","No","Third","Shaughnessy, Mr. Patrick","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"521","No","Second","Angle, Mr. William A","Male",34,26,"Southampton",0,"Mr",1,0
+"522","No","Third","Andersson, Master. Sigvard Harald Elias","Male",4,31.275,"Southampton",0,"Master",6,0
+"523","No","Third","O'Sullivan, Miss. Bridget Mary","Female",21,7.6292,"Queenstown",0,"Miss",0,0
+"524","Yes","First","Carter, Mr. William Ernest","Male",36,120,"Southampton",1,"Mr",3,2
+"525","Yes","First","Anderson, Mr. Harry","Male",48,26.55,"Southampton",1,"Mr",0,1
+"526","No","Third","Reynolds, Mr. Harold J","Male",21,8.05,"Southampton",0,"Mr",0,0
+"527","No","Third","Demetri, Mr. Marinko","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"528","Yes","First","Newell, Miss. Madeleine","Female",31,113.275,"Cherbourg",1,"Miss",1,1
+"529","No","Second","Deacon, Mr. Percy William","Male",17,73.5,"Southampton",0,"Mr",0,0
+"530","No","Second","Dibden, Mr. William","Male",18,73.5,"Southampton",0,"Mr",0,0
+"531","Yes","Third","Kink-Heilmann, Mrs. Anton (Luise Heilmann)","Female",26,22.025,"Southampton",1,"Mrs",2,0
+"532","No","Third","Olsen, Mr. Henry Margido","Male",28,22.525,"Southampton",0,"Mr",0,0
+"533","No","Second","Corbett, Mrs. Walter H (Irene Colvin)","Female",30,13,"Southampton",0,"Mrs",0,0
+"534","Yes","Second","Kelly, Mrs. Florence ""Fannie""","Female",45,13.5,"Southampton",1,"Mrs",0,0
+"535","Yes","Third","Touma, Master. Georges Youssef","Male",7,15.2458,"Cherbourg",1,"Master",2,0
+"536","No","Third","Skoog, Master. Harald","Male",4,27.9,"Southampton",0,"Master",5,0
+"537","Yes","Second","Herman, Mrs. Samuel (Jane Laver)","Female",48,65,"Southampton",1,"Mrs",3,0
+"538","Yes","Third","Moran, Miss. Bertha","Female",16,24.15,"Queenstown",1,"Miss",1,0
+"539","No","Second","Stokes, Mr. Philip Joseph","Male",25,10.5,"Southampton",0,"Mr",0,0
+"540","Yes","First","Beckwith, Mr. Richard Leonard","Male",37,52.5542,"Southampton",1,"Mr",2,1
+"541","No","Second","Harbeck, Mr. William H","Male",44,13,"Southampton",0,"Mr",0,0
+"542","No","First","Blackwell, Mr. Stephen Weart","Male",45,35.5,"Southampton",0,"Mr",0,1
+"543","Yes","Second","Cameron, Miss. Clear Annie","Female",35,21,"Southampton",1,"Miss",0,0
+"544","No","Third","Mernagh, Mr. Robert","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"545","No","Second","Richard, Mr. Emile","Male",23,15.0458,"Cherbourg",0,"Mr",0,0
+"546","No","First","Hilliard, Mr. Herbert Henry","Male",42,51.8625,"Southampton",0,"Mr",0,1
+"547","Yes","First","Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")","Female",24,49.5042,"Cherbourg",1,"Mlle",0,1
+"548","No","Second","Collyer, Mr. Harvey","Male",31,26.25,"Southampton",0,"Mr",2,0
+"549","Yes","Third","Carr, Miss. Helen ""Ellen""","Female",16,7.75,"Queenstown",1,"Miss",0,0
+"550","No","Third","Olsson, Mr. Nils Johan Goransson","Male",28,7.8542,"Southampton",0,"Mr",0,0
+"551","No","First","Clifford, Mr. George Quincy","Male",47,52,"Southampton",0,"Mr",0,1
+"552","Yes","First","Fortune, Miss. Mabel Helen","Female",23,263,"Southampton",1,"Miss",5,3
+"553","Yes","Third","Nysten, Miss. Anna Sofia","Female",22,7.75,"Southampton",1,"Miss",0,0
+"554","Yes","Third","Heikkinen, Miss. Laina","Female",26,7.925,"Southampton",1,"Miss",0,0
+"555","No","First","Ostby, Mr. Engelhart Cornelius","Male",65,61.9792,"Cherbourg",0,"Mr",1,1
+"556","Yes","First","Spedden, Mr. Frederic Oakley","Male",45,134.5,"Cherbourg",1,"Mr",2,1
+"557","Yes","First","Silvey, Mrs. William Baird (Alice Munger)","Female",39,55.9,"Southampton",1,"Mrs",1,1
+"558","Yes","Second","Lehmann, Miss. Bertha","Female",17,12,"Cherbourg",1,"Miss",0,0
+"559","Yes","Second","Smith, Miss. Marion Elsie","Female",40,13,"Southampton",1,"Miss",0,0
+"560","No","Third","Cribb, Mr. John Hatfield","Male",44,16.1,"Southampton",0,"Mr",1,0
+"561","Yes","First","Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)","Female",40,134.5,"Cherbourg",1,"Mrs",2,1
+"562","Yes","First","Meyer, Mrs. Edgar Joseph (Leila Saks)","Female",45,82.1708,"Cherbourg",1,"Mrs",1,0
+"563","Yes","Third","Abelseth, Miss. Karen Marie","Female",16,7.65,"Southampton",1,"Miss",0,0
+"564","No","Third","Lyntakoff, Mr. Stanko","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"565","No","Third","Dantcheff, Mr. Ristiu","Male",25,7.8958,"Southampton",0,"Mr",0,0
+"566","No","Third","Rogers, Mr. William John","Male",26,8.05,"Southampton",0,"Mr",0,0
+"567","Yes","First","Simonius-Blumer, Col. Oberst Alfons","Male",56,35.5,"Cherbourg",1,"Col",0,1
+"568","No","Third","Kiernan, Mr. John","Male",32,7.75,"Queenstown",0,"Mr",1,0
+"569","Yes","First","Frauenthal, Dr. Henry William","Male",50,133.65,"Southampton",1,"Dr",2,0
+"570","Yes","First","Carter, Mrs. William Ernest (Lucile Polk)","Female",36,120,"Southampton",1,"Mrs",3,2
+"571","No","Third","Svensson, Mr. Olof","Male",24,7.7958,"Southampton",0,"Mr",0,0
+"572","No","Third","Andersson, Mr. Johan Samuel","Male",26,7.775,"Southampton",0,"Mr",0,0
+"573","Yes","Second","Hosono, Mr. Masabumi","Male",42,13,"Southampton",1,"Mr",0,0
+"574","Yes","Third","Dean, Miss. Elizabeth Gladys ""Millvina""","Female",0.1667,20.575,"Southampton",1,"Miss",3,0
+"575","No","Second","Harris, Mr. Walter","Male",30,10.5,"Southampton",0,"Mr",0,0
+"576","No","First","Hoyt, Mr. William Fisher","Male",40,30.6958,"Cherbourg",0,"Mr",0,0
+"577","Yes","Third","Olsen, Master. Artur Karl","Male",9,3.1708,"Southampton",1,"Master",1,0
+"578","No","Second","Davies, Mr. Charles Henry","Male",18,73.5,"Southampton",0,"Mr",0,0
+"579","No","Second","Hickman, Mr. Stanley George","Male",21,73.5,"Southampton",0,"Mr",2,0
+"580","No","First","Kenyon, Mr. Frederick R","Male",41,51.8625,"Southampton",0,"Mr",1,1
+"581","No","Third","Petersen, Mr. Marius","Male",24,8.05,"Southampton",0,"Mr",0,0
+"582","No","Third","Hampe, Mr. Leon","Male",20,9.5,"Southampton",0,"Mr",0,0
+"583","No","Third","Hendekovic, Mr. Ignjac","Male",28,7.8958,"Southampton",0,"Mr",0,0
+"584","No","First","Sutton, Mr. Frederick","Male",61,32.3208,"Southampton",0,"Mr",0,1
+"585","No","Third","McMahon, Mr. Martin","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"586","Yes","Third","Kelly, Miss. Mary","Female",22,7.75,"Queenstown",1,"Miss",0,0
+"587","No","Third","Panula, Mr. Ernesti Arvid","Male",16,39.6875,"Southampton",0,"Mr",5,0
+"588","Yes","Second","Ware, Mrs. John James (Florence Louise Long)","Female",31,21,"Southampton",1,"Mrs",0,0
+"589","No","First","Williams-Lambert, Mr. Fletcher Fellows","Male",47,35,"Southampton",0,"Mr",0,1
+"590","No","Second","del Carlo, Mr. Sebastiano","Male",29,27.7208,"Cherbourg",0,"Mr",1,0
+"591","Yes","Second","Doling, Miss. Elsie","Female",18,23,"Southampton",1,"Miss",1,0
+"592","Yes","Third","Glynn, Miss. Mary Agatha","Female",22,7.75,"Queenstown",1,"Miss",0,0
+"593","Yes","Second","Ilett, Miss. Bertha","Female",17,10.5,"Southampton",1,"Miss",0,0
+"594","No","Third","Johnston, Master. William Arthur ""Willie""","Male",26,23.45,"Southampton",0,"Master",3,0
+"595","Yes","Second","Trout, Mrs. William H (Jessie L)","Female",28,12.65,"Southampton",1,"Mrs",0,0
+"596","Yes","Third","Lulic, Mr. Nikola","Male",27,8.6625,"Southampton",1,"Mr",0,0
+"597","No","Second","Wheadon, Mr. Edward H","Male",66,10.5,"Southampton",0,"Mr",0,0
+"598","No","Third","Asplund, Master. Carl Edgar","Male",5,31.3875,"Southampton",0,"Master",6,0
+"599","No","Second","Laroche, Mr. Joseph Philippe Lemercier","Male",25,41.5792,"Cherbourg",0,"Mr",3,0
+"600","No","Third","Fischer, Mr. Eberhard Thelander","Male",18,7.7958,"Southampton",0,"Mr",0,0
+"601","Yes","Third","Sandstrom, Miss. Marguerite Rut","Female",4,16.7,"Southampton",1,"Miss",2,1
+"602","No","First","Rosenshine, Mr. George (""Mr George Thorne"")","Male",46,79.2,"Cherbourg",0,"Mr",0,0
+"603","No","Second","Andrew, Mr. Frank Thomas","Male",25,10.5,"Southampton",0,"Mr",0,0
+"604","No","Second","McCrie, Mr. James Matthew","Male",30,13,"Southampton",0,"Mr",0,0
+"605","Yes","Second","Bryhl, Miss. Dagmar Jenny Ingeborg ","Female",20,26,"Southampton",1,"Miss",1,0
+"606","Yes","Second","Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)","Female",40,39,"Southampton",1,"Mrs",2,0
+"607","No","Second","Lamb, Mr. John Joseph","Male",57,10.7083,"Queenstown",0,"Mr",0,0
+"608","No","Third","Badt, Mr. Mohamed","Male",40,7.225,"Cherbourg",0,"Mr",0,0
+"609","No","Second","Kvillner, Mr. Johan Henrik Johannesson","Male",31,10.5,"Southampton",0,"Mr",0,0
+"610","No","First","Brandeis, Mr. Emil","Male",48,50.4958,"Cherbourg",0,"Mr",0,1
+"611","Yes","Third","McGowan, Miss. Anna ""Annie""","Female",15,8.0292,"Queenstown",1,"Miss",0,0
+"612","No","Second","Herman, Mr. Samuel","Male",49,65,"Southampton",0,"Mr",3,0
+"613","No","Third","Carlsson, Mr. Carl Robert","Male",24,7.8542,"Southampton",0,"Mr",0,0
+"614","Yes","First","Frauenthal, Mr. Isaac Gerald","Male",43,27.7208,"Cherbourg",1,"Mr",1,1
+"615","No","Third","Simmons, Mr. John","Male",26,8.05,"Southampton",0,"Mr",0,0
+"616","No","First","Douglas, Mr. Walter Donald","Male",50,106.425,"Cherbourg",0,"Mr",1,1
+"617","No","Third","Slocovski, Mr. Selman Francis","Male",26,8.05,"Southampton",0,"Mr",0,0
+"618","Yes","First","Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)","Female",17,108.9,"Cherbourg",1,"Mrs",1,1
+"619","No","Third","Sirayanian, Mr. Orsen","Male",22,7.2292,"Cherbourg",0,"Mr",0,0
+"620","Yes","First","Minahan, Miss. Daisy E","Female",33,90,"Queenstown",1,"Miss",1,1
+"621","No","Second","Enander, Mr. Ingvar","Male",21,13,"Southampton",0,"Mr",0,0
+"622","No","Third","Petterson, Mr. Johan Emil","Male",25,7.775,"Southampton",0,"Mr",1,0
+"623","No","Third","Plotcharsky, Mr. Vasil","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"624","No","Third","Kink, Miss. Maria","Female",22,8.6625,"Southampton",0,"Miss",2,0
+"625","No","Third","Peduzzi, Mr. Joseph","Male",26,8.05,"Southampton",0,"Mr",0,0
+"626","No","Third","Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)","Female",36,12.1833,"Southampton",0,"Mrs",2,0
+"627","Yes","Third","Karun, Miss. Manca","Female",4,13.4167,"Cherbourg",1,"Miss",1,0
+"628","No","Second","Mitchell, Mr. Henry Michael","Male",70,10.5,"Southampton",0,"Mr",0,0
+"629","Yes","First","Cardeza, Mr. Thomas Drake Martinez","Male",36,512.3292,"Cherbourg",1,"Mr",1,3
+"630","No","Third","Ford, Mrs. Edward (Margaret Ann Watson)","Female",48,34.375,"Southampton",0,"Mrs",4,0
+"631","Yes","Second","Navratil, Master. Michel M","Male",3,26,"Southampton",1,"Master",2,1
+"632","Yes","Second","Rugg, Miss. Emily","Female",21,10.5,"Southampton",1,"Miss",0,0
+"633","Yes","First","Flynn, Mr. John Irwin (""Irving"")","Male",36,26.3875,"Southampton",1,"Mr",0,1
+"634","No","First","Nicholson, Mr. Arthur Ernest","Male",64,26,"Southampton",0,"Mr",0,0
+"635","No","Third","Cor, Mr. Bartol","Male",35,7.8958,"Southampton",0,"Mr",0,0
+"636","No","Third","Cor, Mr. Liudevit","Male",19,7.8958,"Southampton",0,"Mr",0,0
+"637","No","Third","Assam, Mr. Ali","Male",23,7.05,"Southampton",0,"Mr",0,0
+"638","Yes","First","Warren, Mrs. Frank Manley (Anna Sophia Atkinson)","Female",60,75.25,"Cherbourg",1,"Mrs",1,1
+"639","No","Third","Oreskovic, Mr. Luka","Male",20,8.6625,"Southampton",0,"Mr",0,0
+"640","No","Third","Pavlovic, Mr. Stefo","Male",32,7.8958,"Southampton",0,"Mr",0,0
+"641","Yes","Third","Hedman, Mr. Oskar Arvid","Male",27,6.975,"Southampton",1,"Mr",0,0
+"642","No","Third","Assaf, Mr. Gerios","Male",21,7.225,"Cherbourg",0,"Mr",0,0
+"643","No","First","Isham, Miss. Ann Elizabeth","Female",50,28.7125,"Cherbourg",0,"Miss",0,1
+"644","No","Third","Ilmakangas, Miss. Ida Livija","Female",27,7.925,"Southampton",0,"Miss",1,0
+"645","No","Third","Wiklund, Mr. Jakob Alfred","Male",18,6.4958,"Southampton",0,"Mr",1,0
+"646","No","Third","Sirota, Mr. Maurice","Male",26,8.05,"Southampton",0,"Mr",0,0
+"647","No","First","Harrison, Mr. William","Male",40,0,"Southampton",0,"Mr",0,1
+"648","No","First","Andrews, Mr. Thomas Jr","Male",39,0,"Southampton",0,"Mr",0,1
+"649","Yes","First","Calderhead, Mr. Edward Pennington","Male",42,26.2875,"Southampton",1,"Mr",0,1
+"650","Yes","Second","Shelley, Mrs. William (Imanita Parrish Hall)","Female",25,26,"Southampton",1,"Mrs",1,0
+"651","No","Third","Colbert, Mr. Patrick","Male",24,7.25,"Queenstown",0,"Mr",0,0
+"652","Yes","First","Bonnell, Miss. Caroline","Female",30,164.8667,"Southampton",1,"Miss",0,1
+"653","No","First","Loring, Mr. Joseph Holland","Male",30,45.5,"Southampton",0,"Mr",0,0
+"654","No","Third","Fox, Mr. Patrick","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"655","Yes","First","Dick, Mrs. Albert Adrian (Vera Gillespie)","Female",17,57,"Southampton",1,"Mrs",1,1
+"656","Yes","Second","Davies, Mrs. John Morgan (Elizabeth Agnes Mary White) ","Female",48,36.75,"Southampton",1,"Mrs",2,0
+"657","Yes","First","Smith, Mrs. Lucien Philip (Mary Eloise Hughes)","Female",18,60,"Southampton",1,"Mrs",1,1
+"658","No","First","Spencer, Mr. William Augustus","Male",57,146.5208,"Cherbourg",0,"Mr",1,1
+"659","No","Second","Gaskell, Mr. Alfred","Male",16,26,"Southampton",0,"Mr",0,0
+"660","No","Second","Aldworth, Mr. Charles Augustus","Male",30,13,"Southampton",0,"Mr",0,0
+"661","Yes","Third","Jonsson, Mr. Carl","Male",32,7.8542,"Southampton",1,"Mr",0,0
+"662","No","First","Harrington, Mr. Charles H","Male",30,42.4,"Southampton",0,"Mr",0,0
+"663","No","Third","de Pelsmaeker, Mr. Alfons","Male",16,9.5,"Southampton",0,"Mr",0,0
+"664","No","Third","Hansen, Mr. Claus Peter","Male",41,14.1083,"Southampton",0,"Mr",2,0
+"665","Yes","First","Carter, Miss. Lucile Polk","Female",14,120,"Southampton",1,"Miss",3,2
+"666","No","Third","Pokrnic, Mr. Mate","Male",17,8.6625,"Southampton",0,"Mr",0,0
+"667","Yes","First","Hogeboom, Mrs. John C (Anna Andrews)","Female",51,77.9583,"Southampton",1,"Mrs",1,1
+"668","No","First","Julian, Mr. Henry Forbes","Male",50,26,"Southampton",0,"Mr",0,1
+"669","No","First","Goldschmidt, Mr. George B","Male",71,34.6542,"Cherbourg",0,"Mr",0,1
+"670","No","Third","Moen, Mr. Sigurd Hansen","Male",25,7.65,"Southampton",0,"Mr",0,2
+"671","Yes","Second","Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)","Female",22,29,"Southampton",1,"Mrs",2,0
+"672","Yes","Third","Foo, Mr. Choong","Male",30,56.4958,"Southampton",1,"Mr",0,0
+"673","Yes","First","Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)","Female",47,61.175,"Southampton",1,"Mrs",1,1
+"674","No","Third","Andersson, Miss. Ingeborg Constanzia","Female",9,31.275,"Southampton",0,"Miss",6,0
+"675","No","Third","Youseff, Mr. Gerious","Male",45.5,7.225,"Cherbourg",0,"Mr",0,0
+"676","No","First","Gee, Mr. Arthur H","Male",47,38.5,"Southampton",0,"Mr",0,1
+"677","No","Second","Wheeler, Mr. Edwin ""Frederick""","Male",30,12.875,"Southampton",0,"Mr",0,0
+"678","No","Third","Johanson, Mr. Jakob Alfred","Male",34,6.4958,"Southampton",0,"Mr",0,0
+"679","Yes","Third","O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)","Female",31,15.5,"Queenstown",1,"Mrs",1,0
+"680","No","Third","Hassan, Mr. Houssein G N","Male",11,18.7875,"Cherbourg",0,"Mr",0,0
+"681","No","Third","Ford, Mr. Arthur","Male",26,8.05,"Southampton",0,"Mr",0,0
+"682","Yes","First","Fortune, Miss. Ethel Flora","Female",28,263,"Southampton",1,"Miss",5,3
+"683","No","First","Ryerson, Mr. Arthur Larned","Male",61,262.375,"Cherbourg",0,"Mr",4,4
+"684","Yes","Second","Garside, Miss. Ethel","Female",34,13,"Southampton",1,"Miss",0,0
+"685","Yes","Second","Hewlett, Mrs. (Mary D Kingcome) ","Female",55,16,"Southampton",1,"Mrs",0,0
+"686","No","Third","Burns, Miss. Mary Delia","Female",18,7.8792,"Queenstown",0,"Miss",0,0
+"687","No","Third","Palsson, Miss. Torborg Danira","Female",8,21.075,"Southampton",0,"Miss",4,0
+"688","No","Second","Schmidt, Mr. August","Male",26,13,"Southampton",0,"Mr",0,0
+"689","No","Third","Mangan, Miss. Mary","Female",30.5,7.75,"Queenstown",0,"Miss",0,0
+"690","No","First","Robbins, Mr. Victor","Male",40,227.525,"Cherbourg",0,"Mr",0,0
+"691","Yes","Second","Nasser, Mrs. Nicholas (Adele Achem)","Female",14,30.0708,"Cherbourg",1,"Mrs",1,0
+"692","No","Third","Rouse, Mr. Richard Henry","Male",50,8.05,"Southampton",0,"Mr",0,0
+"693","No","Third","Abbott, Mr. Rossmore Edward","Male",16,20.25,"Southampton",0,"Mr",2,0
+"694","No","Third","Farrell, Mr. James","Male",40.5,7.75,"Queenstown",0,"Mr",0,0
+"695","Yes","First","Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli)","Female",48,79.2,"Cherbourg",1,"Mrs",2,1
+"696","Yes","Third","Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)","Female",27,11.1333,"Southampton",1,"Mrs",2,0
+"697","No","Second","Meyer, Mr. August","Male",39,13,"Southampton",0,"Mr",0,0
+"698","No","First","Taussig, Mr. Emil","Male",52,79.65,"Southampton",0,"Mr",2,1
+"699","No","Third","van Melkebeke, Mr. Philemon","Male",24,9.5,"Southampton",0,"Mr",0,0
+"700","Yes","Third","Aks, Mrs. Sam (Leah Rosen)","Female",18,9.35,"Southampton",1,"Mrs",1,0
+"701","No","Third","Lindell, Mr. Edvard Bengtsson","Male",36,15.55,"Southampton",0,"Mr",1,0
+"702","No","Third","Jardin, Mr. Jose Neto","Male",25,7.05,"Southampton",0,"Mr",0,0
+"703","No","Third","Barton, Mr. David John","Male",22,8.05,"Southampton",0,"Mr",0,0
+"704","No","Third","Abbing, Mr. Anthony","Male",42,7.55,"Southampton",0,"Mr",0,0
+"705","Yes","Third","Andersen-Jensen, Miss. Carla Christine Nielsine","Female",19,7.8542,"Southampton",1,"Miss",1,0
+"706","Yes","Second","Navratil, Master. Edmond Roger","Male",2,26,"Southampton",1,"Master",2,1
+"707","No","First","Moore, Mr. Clarence Bloomfield","Male",47,42.4,"Southampton",0,"Mr",0,0
+"708","No","Third","Klasen, Mr. Klas Albin","Male",18,7.8542,"Southampton",0,"Mr",2,0
+"709","Yes","First","Bissette, Miss. Amelia","Female",35,135.6333,"Southampton",1,"Miss",0,1
+"710","No","Third","Thomson, Mr. Alexander Morrison","Male",26,8.05,"Southampton",0,"Mr",0,0
+"711","No","Third","Zimmerman, Mr. Leo","Male",29,7.875,"Southampton",0,"Mr",0,0
+"712","No","First","Partner, Mr. Austen","Male",45.5,28.5,"Southampton",0,"Mr",0,1
+"713","No","Third","Gustafsson, Mr. Karl Gideon","Male",19,7.775,"Southampton",0,"Mr",0,0
+"714","No","First","McCaffry, Mr. Thomas Francis","Male",46,75.2417,"Cherbourg",0,"Mr",0,1
+"715","No","First","Porter, Mr. Walter Chamberlain","Male",47,52,"Southampton",0,"Mr",0,1
+"716","No","Third","Johnston, Miss. Catherine Helen ""Carrie""","Female",10,23.45,"Southampton",0,"Miss",3,0
+"717","Yes","Third","Hirvonen, Mrs. Alexander (Helga E Lindqvist)","Female",22,12.2875,"Southampton",1,"Mrs",2,0
+"718","No","Third","Sage, Mr. John George","Male",40,69.55,"Southampton",0,"Mr",10,0
+"719","No","Third","Olsen, Mr. Karl Siegwart Andreas","Male",42,8.4042,"Southampton",0,"Mr",1,0
+"720","Yes","First","Compton, Miss. Sara Rebecca","Female",39,83.1583,"Cherbourg",1,"Miss",2,1
+"721","No","Third","Todoroff, Mr. Lalio","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"722","No","Third","Calic, Mr. Petar","Male",17,8.6625,"Southampton",0,"Mr",0,0
+"723","Yes","Third","Murphy, Miss. Margaret Jane","Female",16,15.5,"Queenstown",1,"Miss",1,0
+"724","Yes","First","Burns, Miss. Elizabeth Margaret","Female",41,134.5,"Cherbourg",1,"Miss",0,1
+"725","Yes","Third","Goldsmith, Master. Frank John William ""Frankie""","Male",9,20.525,"Southampton",1,"Master",2,0
+"726","No","Third","Coleff, Mr. Peju","Male",36,7.4958,"Southampton",0,"Mr",0,0
+"727","No","Second","Sedgwick, Mr. Charles Frederick Waddington","Male",25,13,"Southampton",0,"Mr",0,0
+"728","No","Third","Lovell, Mr. John Hall (""Henry"")","Male",20.5,7.25,"Southampton",0,"Mr",0,0
+"729","No","Third","Andersen, Mr. Albert Karvin","Male",32,22.525,"Southampton",0,"Mr",0,0
+"730","No","Third","Torfa, Mr. Assad","Male",23.5,7.2292,"Cherbourg",0,"Mr",0,0
+"731","Yes","First","Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)","Female",43,211.3375,"Southampton",1,"Mrs",1,1
+"732","Yes","Third","Daly, Miss. Margaret Marcella ""Maggie""","Female",30,6.95,"Queenstown",1,"Miss",0,0
+"733","No","Second","Funk, Miss. Annie Clemmer","Female",38,13,"Southampton",0,"Miss",0,0
+"734","No","Third","MacKay, Mr. George William","Male",24,7.55,"Southampton",0,"Mr",0,0
+"735","Yes","First","Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll)","Female",64,83.1583,"Cherbourg",1,"Mrs",2,1
+"736","Yes","Third","McCarthy, Miss. Catherine ""Katie""","Female",22,7.75,"Queenstown",1,"Miss",0,0
+"737","No","Third","McGowan, Miss. Katherine","Female",35,7.75,"Queenstown",0,"Miss",0,0
+"738","No","Second","Carbines, Mr. William","Male",19,13,"Southampton",0,"Mr",0,0
+"739","No","Third","Toufik, Mr. Nakli","Male",23.5,7.2292,"Cherbourg",0,"Mr",0,0
+"740","No","First","Clark, Mr. Walter Miller","Male",27,136.7792,"Cherbourg",0,"Mr",1,1
+"741","Yes","Second","West, Mrs. Edwy Arthur (Ada Mary Worth)","Female",33,27.75,"Southampton",1,"Mrs",3,0
+"742","No","Third","Drazenoic, Mr. Jozef","Male",33,7.8958,"Cherbourg",0,"Mr",0,0
+"743","No","Second","Coleridge, Mr. Reginald Charles","Male",29,10.5,"Southampton",0,"Mr",0,0
+"744","Yes","Third","Moussa, Mrs. (Mantoura Boulos)","Female",18,7.2292,"Cherbourg",1,"Mrs",0,0
+"745","No","Third","Palsson, Master. Gosta Leonard","Male",2,21.075,"Southampton",0,"Master",4,0
+"746","No","Third","Lindahl, Miss. Agda Thorilda Viktoria","Female",25,7.775,"Southampton",0,"Miss",0,0
+"747","No","Third","Meanwell, Miss. (Marion Ogden)","Female",28,8.05,"Southampton",0,"Miss",0,0
+"748","Yes","Third","Salkjelsvik, Miss. Anna Kristine","Female",21,7.65,"Southampton",1,"Miss",0,0
+"749","No","Third","Harknett, Miss. Alice Phoebe","Female",25,7.55,"Southampton",0,"Miss",0,0
+"750","No","Second","Denbury, Mr. Herbert","Male",25,31.5,"Southampton",0,"Mr",0,0
+"751","Yes","Second","Toomey, Miss. Ellen","Female",50,10.5,"Southampton",1,"Miss",0,0
+"752","Yes","First","Bonnell, Miss. Elizabeth","Female",58,26.55,"Southampton",1,"Miss",0,1
+"753","Yes","Third","Coutts, Master. Eden Leslie ""Neville""","Male",9,15.9,"Southampton",1,"Master",2,0
+"754","Yes","First","Greenfield, Mr. William Bertram","Male",23,63.3583,"Cherbourg",1,"Mr",1,2
+"755","Yes","Third","Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)","Female",38,31.3875,"Southampton",1,"Mrs",6,0
+"756","No","Third","Franklin, Mr. Charles (Charles Fardon)","Male",30,7.25,"Southampton",0,"Mr",0,0
+"757","No","Second","Hickman, Mr. Leonard Mark","Male",24,73.5,"Southampton",0,"Mr",2,0
+"758","No","Third","Waelens, Mr. Achille","Male",22,9,"Southampton",0,"Mr",0,0
+"759","No","Third","Sutehall, Mr. Henry Jr","Male",25,7.05,"Southampton",0,"Mr",0,0
+"760","No","Second","Cotterill, Mr. Henry ""Harry""","Male",21,11.5,"Southampton",0,"Mr",0,0
+"761","No","Third","Barbara, Miss. Saiide","Female",18,14.4542,"Cherbourg",0,"Miss",1,0
+"762","Yes","First","Homer, Mr. Harry (""Mr E Haven"")","Male",35,26.55,"Cherbourg",1,"Mr",0,0
+"763","No","Second","Nesson, Mr. Israel","Male",26,13,"Southampton",0,"Mr",0,1
+"764","No","Second","Ware, Mr. William Jeffery","Male",23,10.5,"Southampton",0,"Mr",1,0
+"765","Yes","First","Earnshaw, Mrs. Boulton (Olive Potter)","Female",23,83.1583,"Cherbourg",1,"Mrs",1,1
+"766","No","Third","Lemberopolous, Mr. Peter L","Male",34.5,6.4375,"Cherbourg",0,"Mr",0,0
+"767","No","First","Williams, Mr. Charles Duane","Male",51,61.3792,"Cherbourg",0,"Mr",1,0
+"768","No","Second","Hodges, Mr. Henry Price","Male",50,13,"Southampton",0,"Mr",0,0
+"769","Yes","Third","Gilnagh, Miss. Katherine ""Katie""","Female",16,7.7333,"Queenstown",1,"Miss",0,0
+"770","Yes","Third","Midtsjo, Mr. Karl Albert","Male",21,7.775,"Southampton",1,"Mr",0,0
+"771","Yes","First","Brown, Mrs. James Joseph (Margaret Tobin)","Female",44,27.7208,"Cherbourg",1,"Mrs",0,1
+"772","Yes","Third","Ryan, Mr. Edward","Male",22,7.75,"Queenstown",1,"Mr",0,0
+"773","No","First","Evans, Miss. Edith Corse","Female",36,31.6792,"Cherbourg",0,"Miss",0,1
+"774","Yes","First","Longley, Miss. Gretchen Fiske","Female",21,77.9583,"Southampton",1,"Miss",0,1
+"775","Yes","First","Rheims, Mr. George Alexander Lucien","Male",34,39.6,"Southampton",1,"Mr",0,0
+"776","No","Third","Connors, Mr. Patrick","Male",70.5,7.75,"Queenstown",0,"Mr",0,0
+"777","No","Third","Carlsson, Mr. August Sigfrid","Male",28,7.7958,"Southampton",0,"Mr",0,0
+"778","No","Third","Ivanoff, Mr. Kanio","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"779","Yes","First","Lines, Miss. Mary Conover","Female",16,39.4,"Southampton",1,"Miss",1,1
+"780","Yes","First","Allen, Miss. Elisabeth Walton","Female",29,211.3375,"Southampton",1,"Miss",0,1
+"781","Yes","Third","O'Driscoll, Miss. Bridget","Female",22,7.75,"Queenstown",1,"Miss",0,0
+"782","Yes","Second","Beane, Mrs. Edward (Ethel Clarke)","Female",19,26,"Southampton",1,"Mrs",1,0
+"783","No","Third","Connolly, Miss. Kate","Female",30,7.6292,"Queenstown",0,"Miss",0,0
+"784","No","Third","Caram, Mr. Joseph","Male",17,14.4583,"Cherbourg",0,"Mr",1,0
+"785","No","First","Fortune, Mr. Charles Alexander","Male",19,263,"Southampton",0,"Mr",5,3
+"786","Yes","Third","Thomas, Mrs. Alexander (Thamine ""Thelma"")","Female",16,8.5167,"Cherbourg",1,"Mrs",2,0
+"787","No","Third","Boulos, Mrs. Joseph (Sultana)","Female",17,15.2458,"Cherbourg",0,"Mrs",2,0
+"788","Yes","Second","Hold, Mrs. Stephen (Annie Margaret Hill)","Female",29,26,"Southampton",1,"Mrs",1,0
+"789","No","Third","Andreasson, Mr. Paul Edvin","Male",20,7.8542,"Southampton",0,"Mr",0,0
+"790","No","Third","Davies, Mr. Alfred J","Male",24,24.15,"Southampton",0,"Mr",2,0
+"791","No","Second","Banfield, Mr. Frederick James","Male",28,10.5,"Southampton",0,"Mr",0,0
+"792","Yes","Second","Davies, Master. John Morgan Jr","Male",8,36.75,"Southampton",1,"Master",2,0
+"793","Yes","First","Clark, Mrs. Walter Miller (Virginia McDowell)","Female",26,136.7792,"Cherbourg",1,"Mrs",1,1
+"794","Yes","Third","Baclini, Mrs. Solomon (Latifa Qurban)","Female",24,19.2583,"Cherbourg",1,"Mrs",3,0
+"795","No","Third","Strom, Miss. Telma Matilda","Female",2,10.4625,"Southampton",0,"Miss",1,1
+"796","No","Third","Vander Cruyssen, Mr. Victor","Male",47,9,"Southampton",0,"Mr",0,0
+"797","Yes","Second","Richards, Mrs. Sidney (Emily Hocking)","Female",24,18.75,"Southampton",1,"Mrs",5,0
+"798","Yes","Second","Herman, Miss. Alice","Female",24,65,"Southampton",1,"Miss",3,0
+"799","No","Second","Andrew, Mr. Edgardo Samuel","Male",18,11.5,"Southampton",0,"Mr",0,0
+"800","Yes","Second","Oxenham, Mr. Percy Thomas","Male",22,10.5,"Southampton",1,"Mr",0,0
+"801","No","Third","Johansson, Mr. Karl Johan","Male",31,7.775,"Southampton",0,"Mr",0,0
+"802","Yes","First","Kreuchen, Miss. Emilie","Female",39,211.3375,"Southampton",1,"Miss",0,0
+"803","No","Second","Hocking, Mr. Samuel James Metcalfe","Male",36,13,"Southampton",0,"Mr",0,0
+"804","No","Third","Spector, Mr. Woolf","Male",26,8.05,"Southampton",0,"Mr",0,0
+"805","No","Third","Bostandyeff, Mr. Guentcho","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"806","Yes","Third","Bradley, Miss. Bridget Delia","Female",22,7.725,"Queenstown",1,"Miss",0,0
+"807","No","Third","Cacic, Miss. Marija","Female",30,8.6625,"Southampton",0,"Miss",0,0
+"808","No","Third","Betros, Mr. Tannous","Male",20,4.0125,"Cherbourg",0,"Mr",0,0
+"809","No","Third","Paulner, Mr. Uscher","Male",33,8.7125,"Cherbourg",0,"Mr",0,0
+"810","Yes","First","Kenyon, Mrs. Frederick R (Marion)","Female",35,51.8625,"Southampton",1,"Mrs",1,1
+"811","No","First","Silvey, Mr. William Baird","Male",50,55.9,"Southampton",0,"Mr",1,1
+"812","No","Third","Minkoff, Mr. Lazar","Male",21,7.8958,"Southampton",0,"Mr",0,0
+"813","No","Third","Nasr, Mr. Mustafa","Male",23.5,7.2292,"Cherbourg",0,"Mr",0,0
+"814","No","Third","Elias, Mr. Joseph","Male",39,7.2292,"Cherbourg",0,"Mr",2,0
+"815","No","Second","Bracken, Mr. James H","Male",27,13,"Southampton",0,"Mr",0,0
+"816","No","Second","Butler, Mr. Reginald Fenton","Male",25,13,"Southampton",0,"Mr",0,0
+"817","Yes","Third","Kink-Heilmann, Mr. Anton","Male",29,22.025,"Southampton",1,"Mr",4,0
+"818","Yes","First","Brown, Mrs. John Murray (Caroline Lane Lamson)","Female",59,51.4792,"Southampton",1,"Mrs",2,1
+"819","No","Third","Hanna, Mr. Mansour","Male",23.5,7.2292,"Cherbourg",0,"Mr",0,0
+"820","No","Third","Widegren, Mr. Carl/Charles Peter","Male",51,7.75,"Southampton",0,"Mr",0,0
+"821","No","Third","Sage, Miss. Ada","Female",9,69.55,"Southampton",0,"Miss",10,0
+"822","Yes","Third","Johannesen-Bratthammer, Mr. Bernt","Male",19,8.1125,"Southampton",1,"Mr",0,0
+"823","No","Third","Jensen, Mr. Hans Peder","Male",20,7.8542,"Southampton",0,"Mr",0,0
+"824","Yes","First","Cornell, Mrs. Robert Clifford (Malvina Helen Lamson)","Female",55,25.7,"Southampton",1,"Mrs",2,1
+"825","Yes","Third","Ayoub, Miss. Banoura","Female",13,7.2292,"Cherbourg",1,"Miss",0,0
+"826","Yes","Third","Osman, Mrs. Mara","Female",31,8.6833,"Southampton",1,"Mrs",0,0
+"827","No","Third","Lefebre, Miss. Jeannie","Female",6,25.4667,"Southampton",0,"Miss",4,0
+"828","No","Third","Johansson, Mr. Erik","Male",22,7.7958,"Southampton",0,"Mr",0,0
+"829","No","Third","Moran, Mr. James","Male",31,8.4583,"Queenstown",0,"Mr",0,0
+"830","No","First","Widener, Mr. George Dunton","Male",50,211.5,"Cherbourg",0,"Mr",2,1
+"831","No","Second","McKane, Mr. Peter David","Male",46,26,"Southampton",0,"Mr",0,0
+"832","No","Second","Montvila, Rev. Juozas","Male",27,13,"Southampton",0,"Rev",0,0
+"833","No","Second","Hold, Mr. Stephen","Male",44,26,"Southampton",0,"Mr",1,0
+"834","No","Third","Sage, Miss. Stella Anna","Female",9,69.55,"Southampton",0,"Miss",10,0
+"835","No","Third","Rush, Mr. Alfred George John","Male",16,8.05,"Southampton",0,"Mr",0,0
+"836","No","Third","Sadowitz, Mr. Harry","Male",24,7.575,"Southampton",0,"Mr",0,0
+"837","No","Third","Dahlberg, Miss. Gerda Ulrika","Female",22,10.5167,"Southampton",0,"Miss",0,0
+"838","Yes","Third","Mannion, Miss. Margareth","Female",22,7.7375,"Queenstown",1,"Miss",0,0
+"839","No","Third","Peters, Miss. Katie","Female",24,8.1375,"Queenstown",0,"Miss",0,0
+"840","No","Second","Hart, Mr. Benjamin","Male",43,26.25,"Southampton",0,"Mr",2,0
+"841","No","Third","McNamee, Mrs. Neal (Eileen O'Leary)","Female",19,16.1,"Southampton",0,"Mrs",1,0
+"842","No","Third","Larsson, Mr. August Viktor","Male",29,9.4833,"Southampton",0,"Mr",0,0
+"843","Yes","Third","Nakid, Mrs. Said (Waika ""Mary"" Mowad)","Female",19,15.7417,"Cherbourg",1,"Mrs",2,0
+"844","No","Third","Brobeck, Mr. Karl Rudolf","Male",22,7.7958,"Southampton",0,"Mr",0,0
+"845","No","Third","Braund, Mr. Lewis Richard","Male",29,7.0458,"Southampton",0,"Mr",1,0
+"846","No","Second","Parker, Mr. Clifford Richard","Male",28,10.5,"Southampton",0,"Mr",0,0
+"847","Yes","First","Bird, Miss. Ellen","Female",29,221.7792,"Southampton",1,"Miss",0,1
+"848","No","Third","Angheloff, Mr. Minko","Male",26,7.8958,"Southampton",0,"Mr",0,0
+"849","No","Third","Riihivouri, Miss. Susanna Juhantytar ""Sanni""","Female",22,39.6875,"Southampton",0,"Miss",0,0
+"850","No","First","Carrau, Mr. Jose Pedro","Male",17,47.1,"Southampton",0,"Mr",0,0
+"851","Yes","First","Mock, Mr. Philipp Edmund","Male",30,57.75,"Cherbourg",1,"Mr",1,1
+"852","No","First","Compton, Mr. Alexander Taylor Jr","Male",37,83.1583,"Cherbourg",0,"Mr",2,1
+"853","Yes","Third","Hirvonen, Miss. Hildur E","Female",2,12.2875,"Southampton",1,"Miss",1,0
+"854","No","First","Marvin, Mr. Daniel Warner","Male",19,53.1,"Southampton",0,"Mr",1,1
+"855","No","Third","Burke, Mr. Jeremiah","Male",19,6.75,"Queenstown",0,"Mr",0,0
+"856","Yes","First","Woolner, Mr. Hugh","Male",40,35.5,"Southampton",1,"Mr",0,1
+"857","Yes","First","Graham, Mrs. William Thompson (Edith Junkins)","Female",58,153.4625,"Southampton",1,"Mrs",1,1
+"858","Yes","Third","Asplund, Master. Edvin Rojj Felix","Male",3,31.3875,"Southampton",1,"Master",6,0
+"859","No","Third","Henriksson, Miss. Jenny Lovisa","Female",28,7.775,"Southampton",0,"Miss",0,0
+"860","No","Third","Thorneycroft, Mr. Percival","Male",28,16.1,"Southampton",0,"Mr",1,0
+"861","Yes","Third","Karlsson, Mr. Einar Gervasius","Male",21,7.7958,"Southampton",1,"Mr",0,0
+"862","No","Third","Pedersen, Mr. Olaf","Male",24,7.775,"Southampton",0,"Mr",0,0
+"863","Yes","First","Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)","Female",58,512.3292,"Cherbourg",1,"Mrs",1,3
+"864","No","Third","Mahon, Mr. John","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"865","Yes","First","Marechal, Mr. Pierre","Male",43,29.7,"Cherbourg",1,"Mr",0,1
+"866","Yes","First","Endres, Miss. Caroline Louise","Female",38,227.525,"Cherbourg",1,"Miss",0,1
+"867","Yes","First","Chevre, Mr. Paul Romaine","Male",45,29.7,"Cherbourg",1,"Mr",0,1
+"868","No","Third","Robins, Mrs. Alexander A (Grace Charity Laury)","Female",47,14.5,"Southampton",0,"Mrs",1,0
+"869","Yes","First","Bowen, Miss. Grace Scott","Female",45,262.375,"Cherbourg",1,"Miss",0,0
+"870","No","Third","Lievens, Mr. Rene Aime","Male",24,9.5,"Southampton",0,"Mr",0,0
+"871","Yes","First","Goldenberg, Mr. Samuel L","Male",49,89.1042,"Cherbourg",1,"Mr",1,1
+"872","No","Third","Elias, Mr. Dibo","Male",22.5,7.225,"Cherbourg",0,"Mr",0,0
+"873","No","Third","Aronsson, Mr. Ernst Axel Algot","Male",24,7.775,"Southampton",0,"Mr",0,0
+"874","No","First","Warren, Mr. Frank Manley","Male",64,75.25,"Cherbourg",0,"Mr",1,1
+"875","No","First","Colley, Mr. Edward Pomeroy","Male",47,25.5875,"Southampton",0,"Mr",0,1
+"876","No","Third","Danbom, Master. Gilbert Sigvard Emanuel","Male",0.3333,14.4,"Southampton",0,"Master",2,0
+"877","Yes","First","Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)","Female",33,86.5,"Southampton",1,"th",0,1
+"878","No","Third","Jensen, Mr. Svend Lauritz","Male",17,7.0542,"Southampton",0,"Mr",1,0
+"879","Yes","First","Hawksford, Mr. Walter James","Male",48,30,"Southampton",1,"Mr",0,1
+"880","No","Third","Vande Velde, Mr. Johannes Joseph","Male",33,9.5,"Southampton",0,"Mr",0,0
+"881","No","Third","Lindell, Mrs. Edvard Bengtsson (Elin Gerda Persson)","Female",30,15.55,"Southampton",0,"Mrs",1,0
+"882","Yes","Third","Cribb, Miss. Laura Alice","Female",17,16.1,"Southampton",1,"Miss",1,0
+"883","Yes","First","Newsom, Miss. Helen Monypeny","Female",19,26.2833,"Southampton",1,"Miss",2,1
+"884","Yes","Third","Persson, Mr. Ernst Ulrik","Male",25,7.775,"Southampton",1,"Mr",1,0
+"885","Yes","First","Harder, Mrs. George Achilles (Dorothy Annan)","Female",25,55.4417,"Cherbourg",1,"Mrs",1,1
+"886","No","Second","Keane, Mr. Daniel","Male",35,12.35,"Queenstown",0,"Mr",0,0
+"887","No","Second","Veal, Mr. James","Male",40,13,"Southampton",0,"Mr",0,0
+"888","No","Second","Giles, Mr. Ralph","Male",24,13.5,"Southampton",0,"Mr",0,0
+"889","No","Third","Petranec, Miss. Matilda","Female",28,7.8958,"Southampton",0,"Miss",0,0
+"890","Yes","Third","McCormack, Mr. Thomas Joseph","Male",31,7.75,"Queenstown",1,"Mr",0,0
+"891","No","Third","Rice, Master. Arthur","Male",4,29.125,"Queenstown",0,"Master",5,0
+"892","Yes","First","Thorne, Mrs. Gertrude Maybelle","Female",30,79.2,"Cherbourg",1,"Mrs",0,0
+"893","No","First","Butt, Major. Archibald Willingham","Male",45,26.55,"Southampton",0,"Major",0,1
+"894","Yes","First","Wick, Mrs. George Dennick (Mary Hitchcock)","Female",45,164.8667,"Southampton",1,"Mrs",2,0
+"895","No","Second","Malachard, Mr. Noel","Male",36,15.0458,"Cherbourg",0,"Mr",0,1
+"896","Yes","First","Cavendish, Mrs. Tyrell William (Julia Florence Siegel)","Female",76,78.85,"Southampton",1,"Mrs",1,1
+"897","No","Third","Flynn, Mr. James","Male",32,7.75,"Queenstown",0,"Mr",0,0
+"898","No","First","Futrelle, Mr. Jacques Heath","Male",37,53.1,"Southampton",0,"Mr",1,1
+"899","No","Third","van Billiard, Master. James William","Male",16,14.5,"Southampton",0,"Master",2,0
+"900","No","Third","Zakarian, Mr. Ortin","Male",27,7.225,"Cherbourg",0,"Mr",0,0
+"901","Yes","Second","Mallet, Master. Andre","Male",1,37.0042,"Cherbourg",1,"Master",2,0
+"902","No","Third","Sage, Master. William Henry","Male",14.5,69.55,"Southampton",0,"Master",10,0
+"903","No","Third","Foley, Mr. Joseph","Male",26,7.8792,"Queenstown",0,"Mr",0,0
+"904","Yes","First","Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson)","Female",18,53.1,"Southampton",1,"Mrs",1,1
+"905","No","Third","Coleff, Mr. Satio","Male",24,7.4958,"Southampton",0,"Mr",0,0
+"906","Yes","First","Bradley, Mr. George (""George Arthur Brayton"")","Male",45,26.55,"Southampton",1,"Mr",0,0
+"907","Yes","Second","Nye, Mrs. (Elizabeth Ramell)","Female",29,10.5,"Southampton",1,"Mrs",0,1
+"908","No","First","Ovies y Rodriguez, Mr. Servando","Male",28.5,27.7208,"Cherbourg",0,"Mr",0,1
+"909","No","Third","Alexander, Mr. William","Male",26,7.8875,"Southampton",0,"Mr",0,0
+"910","Yes","First","Hays, Miss. Margaret Bechstein","Female",24,83.1583,"Cherbourg",1,"Miss",0,1
+"911","No","Third","Sadlier, Mr. Matthew","Male",25,7.7292,"Queenstown",0,"Mr",0,0
+"912","Yes","Second","Webber, Miss. Susan","Female",32.5,13,"Southampton",1,"Miss",0,1
+"913","No","Third","Betros, Master. Seman","Male",23.5,7.2292,"Cherbourg",0,"Master",0,0
+"914","No","Third","Salonen, Mr. Johan Werner","Male",39,7.925,"Southampton",0,"Mr",0,0
+"915","No","First","Wick, Mr. George Dennick","Male",57,164.8667,"Southampton",0,"Mr",2,0
+"916","No","Third","Vande Walle, Mr. Nestor Cyriel","Male",28,9.5,"Southampton",0,"Mr",0,0

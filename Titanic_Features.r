@@ -1,8 +1,8 @@
-# Titanic Data: Cleaning
+# Titanic Data: Features
 # BUSA3020 Advanced Analytics Techniques
 # Student Name: Cyrus Kwan
 # Student ID: 45200165
-# Last Modified: 31/03/2021
+# Last Modified: 1/04/2021
 # Accessible via: https://github.com/MQCyrusKwan/BUSA3020-Assessment-2---Predictive-Analysis
 
 list_sum_substr <- function(column){
@@ -17,4 +17,14 @@ list_sum_substr <- function(column){
         }
     }
     return(as.numeric(container))
+}
+
+extract_title <- function(column){
+    # Extracts the title of the passenger from their name
+    title <- column
+    for(i in 1:length(column)){
+        last_name <- strsplit(column[i], ", ")[[1]][2]
+        title[i] <- strsplit(last_name, ". ")[[1]][1]
+    }
+    return(title)
 }

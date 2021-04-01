@@ -2,7 +2,7 @@
 # BUSA3020 Advanced Analytics Techniques
 # Student Name: Cyrus Kwan
 # Student ID: 45200165
-# Last Modified: 31/03/2021
+# Last Modified: 1/04/2021
 # Accessible via: https://github.com/MQCyrusKwan/BUSA3020-Assessment-2---Predictive-Analysis
 
 import_data <- function(file_path){
@@ -54,4 +54,20 @@ hist_omitting_NA <- function(column){
         main = paste("Histogram of ", toString(substitute(column)))
         )
     return(new_hist)
+}
+
+rate_by <- function(target, category){
+    # Rates the target dummy variable by its corresponding category
+    groups = sort(unique(category))
+    temp_df <- data.frame(t = target, c =category)
+    rate_df <- data.frame(rate = c(1:length(groups)), groups)
+    for(column in sort(unique(category))){
+        target_positive = table(temp_df$t[which(temp_df$c == column)])
+        if(length(target_positive) < 2){
+            rate_df$rate[which(rate_df$groups == column)] = 0
+        } else{
+            rate_df$rate[which(rate_df$groups == column)] = target_positive[["1"]]/sum(target_positive)
+        }
+    }
+    return(rate_df)
 }
