@@ -2,7 +2,7 @@
 # BUSA3020 Advanced Analytics Techniques
 # Student Name: Cyrus Kwan
 # Student ID: 45200165
-# Last Modified: 3/04/2021
+# Last Modified: 4/04/2021
 # Accessible via: https://github.com/MQCyrusKwan/BUSA3020-Assessment-2---Predictive-Analysis
 
 # ------------------------------------------------------------------------------------------|
@@ -303,7 +303,7 @@ class_test <- test%>% select(-Survived.dum, -Passenger.Class.dum, -Sex.dum, -Nor
 
 # All models will use numeric sets so no variables are weighed multiple times
 # Random Forest
-rf_model <- randomForest(as.factor(Survived)~., data=class_train, ntree = 12)
+rf_model <- randomForest(as.factor(Survived)~., data=class_train, ntree = 200)
 rf_prediction <- predict(rf_model, newdata=class_test, type="response")
 
 titanic_rf <- model_df(rf_prediction, test$Survived)
@@ -325,11 +325,22 @@ titanic_nn <- model_df(nn_prediction, test$Survived)
 # ------------------------------------------------------------------------------------------|
 # MODEL EVALUATION:
 
-#Random Forest
+# Random Forest
 rf_matrix <- table(titanic_rf)
 rf_matrix
 model_evaluation(titanic_rf)
-plot(rf_model)
+
+# > plot of random forest errors
+# > OOB out of bag error (overall error)
+oob.error <- data.frame(
+    Trees=rep(1:nrow(rf_model$err.rate), times=3),
+    Type=rep(c("OOB", "No", "Yes"), each=nrow(rf_model$err.rate)),
+    Error=c(rf_model$err.rate[,"OOB"],
+            rf_model$err.rate[,"No"],
+            rf_model$err.rate[,"Yes"]))
+
+ggplot(data=oob.error, aes(x=Trees, y=Error))+
+    geom_line(aes(color=Type))
 
 # Multinomial Logistic Regression:
 mlr_matrix <- table(titanic_mlr)
