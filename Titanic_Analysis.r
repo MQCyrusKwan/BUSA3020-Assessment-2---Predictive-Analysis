@@ -2,7 +2,7 @@
 # BUSA3020 Advanced Analytics Techniques
 # Student Name: Cyrus Kwan
 # Student ID: 45200165
-# Last Modified: 1/04/2021
+# Last Modified: 3/04/2021
 # Accessible via: https://github.com/MQCyrusKwan/BUSA3020-Assessment-2---Predictive-Analysis
 
 import_data <- function(file_path){
@@ -20,9 +20,7 @@ import_data <- function(file_path){
 
 code_column_as_dummy <- function(column){
     # Codes the parsed column as a dummy variable
-    new_dummy <- as.numeric(
-        as.factor(column)
-        )
+    new_dummy <- as.numeric(as.factor(column))
     return(new_dummy)
 }
 

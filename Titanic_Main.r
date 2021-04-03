@@ -2,7 +2,7 @@
 # BUSA3020 Advanced Analytics Techniques
 # Student Name: Cyrus Kwan
 # Student ID: 45200165
-# Last Modified: 1/04/2021
+# Last Modified: 3/04/2021
 # Accessible via: https://github.com/MQCyrusKwan/BUSA3020-Assessment-2---Predictive-Analysis
 
 # ------------------------------------------------------------------------------------------|
@@ -17,11 +17,12 @@ if(find.package("pacman") == FALSE){
 # Load with conformation: require()
 # Load without conformaiton: library()
 require(pacman)
-pacman::p_load(pacman, dplyr, ggplot2, VIM)
+pacman::p_load(pacman, dplyr, ggplot2, VIM, randomForest, nnet, neuralnet, pROC)
 
 # Source functions from other R scripts
 source(file = "Titanic_Analysis.r")
 source(file = "Titanic_Features.r")
+source(file = "Titanic_Algorithms_Testing.r")
 
 # Data from: https://ilearn.mq.edu.au/mod/resource/view.php?id=6351154
 titanic_data <- import_data(file_path = "TitanicData_AllPassengers.csv")
@@ -45,11 +46,15 @@ titanic_cleaned <- subset(titanic_cleaned,
                                       Passenger.Fare_imp,
                                       Port.of.Embarkation_imp))
 
-# Code column as dummy
-titanic_cleaned$Survived.dum <- code_column_as_dummy(titanic_data$Survived)-1
-
 # Extract title
 titanic_cleaned$Title <- extract_title(titanic_cleaned$Name)
+
+# > uncommon titles are summed into 'Rare'
+titanic_cleaned$Normal.Title <- titanic_cleaned$Title
+titanic_cleaned$Normal.Title[titanic_cleaned$Normal.Title != 'Mr' & 
+                             titanic_cleaned$Normal.Title != 'Miss' & 
+                             titanic_cleaned$Normal.Title != 'Mrs' & 
+                             titanic_cleaned$Normal.Title != 'Master'] <- 'Rare'
 
 # Family size
 titanic_cleaned$Family.Size <- 
@@ -126,13 +131,6 @@ titanic_cleaned %>%
     coord_flip()
 
 # > Plots Survival by Adjusted Titles
-# > uncommon titles are summed into 'Rare'
-Passenger_Title <- titanic_cleaned$Title
-Passenger_Title[Passenger_Title != 'Mr' & 
-                Passenger_Title != 'Miss' & 
-                Passenger_Title != 'Mrs' & 
-                Passenger_Title != 'Master'] <- 'Rare'
-
 titanic_cleaned %>%
     ggplot(aes(x = Passenger_Title, fill = factor(Survived))) +
     geom_histogram(stat = "count") +
@@ -232,6 +230,12 @@ port_survival_rate %>%
 # ------------------------------------------------------------------------------------------|
 # DATA SAMPLING:
 
+# Code columns as dummy variables
+titanic_cleaned$Survived.dum <- code_column_as_dummy(titanic_cleaned$Survived)-1
+titanic_cleaned$Passenger.Class.dum <- code_column_as_dummy(titanic_cleaned$Passenger.Class)
+titanic_cleaned$Sex.dum <- code_column_as_dummy(titanic_cleaned$Sex)
+titanic_cleaned$Normal.Title.dum <- code_column_as_dummy(titanic_cleaned$Normal.Title)
+
 # Dropping variables:
 # > Removed Life Boat as it is assumed that the passenger survived if they
 # > were on a life boat
@@ -239,12 +243,16 @@ port_survival_rate %>%
 # > 'Number of Siblings or Spouses on Board', and 'Number of Parents or Children on Board' can
 # > also be removed since they appear to have the same correlation as each other which we
 # > represented with 'Family Size'
+# > Names vary so much that they cannot be categorized
+# > Splitting rare titles can lead to model errors and Normal.Title achieves a similar outcome
 titanic_cleaned <- titanic_cleaned %>%
     select(-c(Life.Boat, 
               Ticket.Number, 
               Cabin, 
               No.of.Siblings.or.Spouses.on.Board, 
-              No.of.Parents.or.Children.on.Board))
+              No.of.Parents.or.Children.on.Board,
+              Name,
+              Title))
 
 # > Writes titanic_cleaned to 'titanic-cleaned.csv'
 write.csv(titanic_cleaned, file = "titanic-cleaned.csv")
@@ -276,6 +284,60 @@ write.csv(test, file = "titanic-test.csv")
 # ------------------------------------------------------------------------------------------|
 # DATA MODELLING:
 
+# Imports written datasets such that our training and testing sets remain consistent
+# for further algorithm evaluation
+train <- import_data("titanic-train.csv")
+test <- import_data("titanic-test.csv")
+
+# > Remove redundant index column
+train <- train %>% select(-X)
+test <- test %>% select(-X)
+
+# > Some models only work on numeric values
+numeric_train <- select_if(train, is.numeric)
+numeric_test <- select_if(test, is.numeric)
+
+# > Remove dummy variables from potentially skewing some models
+class_train <- train%>% select(-Survived.dum, -Passenger.Class.dum, -Sex.dum, -Normal.Title.dum)
+class_test <- test%>% select(-Survived.dum, -Passenger.Class.dum, -Sex.dum, -Normal.Title.dum)
+
+# All models will use numeric sets so no variables are weighed multiple times
+# Random Forest
+rf_model <- randomForest(as.factor(Survived)~., data=class_train, ntree = 12)
+rf_prediction <- predict(rf_model, newdata=class_test, type="response")
+
+titanic_rf <- model_df(rf_prediction, test$Survived)
+
+# Multinomial Logistic Regression:
+mlr_model <- multinom(formula=Survived~., data=class_train)
+mlr_probability <- predict(mlr_model, newdata=class_test, type="probs")
+mlr_prediction <- predict(mlr_model, newdata=class_test, type="class")
+
+titanic_mlr <- model_df(mlr_prediction, test$Survived)
+
+# Neural Network:
+nn_model <- neuralnet(Survived.dum~., data=numeric_train, hidden=c(2,1))
+nn_probability <- predict(nn_model, newdata=numeric_test, type="response")
+nn_prediction <- ifelse(nn_probability > 0.5, "Yes", "No")
+
+titanic_nn <- model_df(nn_prediction, test$Survived)
 
 # ------------------------------------------------------------------------------------------|
 # MODEL EVALUATION:
+
+#Random Forest
+rf_matrix <- table(titanic_rf)
+rf_matrix
+model_evaluation(titanic_rf)
+plot(rf_model)
+
+# Multinomial Logistic Regression:
+mlr_matrix <- table(titanic_mlr)
+mlr_matrix
+model_evaluation(titanic_mlr)
+
+# Neural Network:
+nn_matrix <- table(titanic_nn)
+nn_matrix
+model_evaluation(titanic_nn)
+plot(nn_model)
