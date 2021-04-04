@@ -17,7 +17,10 @@ if(find.package("pacman") == FALSE){
 # Load with conformation: require()
 # Load without conformaiton: library()
 require(pacman)
-pacman::p_load(pacman, dplyr, ggplot2, VIM, randomForest, nnet, neuralnet, pROC)
+pacman::p_load(pacman, dplyr, ggplot2, VIM, pROC)
+
+# Load packages for models
+pacman::p_load(randomForest, nnet, neuralnet)
 
 # Source functions from other R scripts
 source(file = "Titanic_Analysis.r")
@@ -301,9 +304,9 @@ numeric_test <- select_if(test, is.numeric)
 class_train <- train%>% select(-Survived.dum, -Passenger.Class.dum, -Sex.dum, -Normal.Title.dum)
 class_test <- test%>% select(-Survived.dum, -Passenger.Class.dum, -Sex.dum, -Normal.Title.dum)
 
-# All models will use numeric sets so no variables are weighed multiple times
 # Random Forest
 rf_model <- randomForest(as.factor(Survived)~., data=class_train, ntree = 200)
+rf_probability <- predict(rf_model, newdata=class_test, type="prob")
 rf_prediction <- predict(rf_model, newdata=class_test, type="response")
 
 titanic_rf <- model_df(rf_prediction, test$Survived)
@@ -326,9 +329,12 @@ titanic_nn <- model_df(nn_prediction, test$Survived)
 # MODEL EVALUATION:
 
 # Random Forest
-rf_matrix <- table(titanic_rf)
+rf_matrix <- confusion_matrix(titanic_rf)
+rf_roc <- roc(test$Survived.dum, rf_probability[,"Yes"], plot=FALSE)
+
 rf_matrix
 model_evaluation(titanic_rf)
+auc(rf_roc)
 
 # > plot of random forest errors
 # > OOB out of bag error (overall error)
@@ -343,12 +349,22 @@ ggplot(data=oob.error, aes(x=Trees, y=Error))+
     geom_line(aes(color=Type))
 
 # Multinomial Logistic Regression:
-mlr_matrix <- table(titanic_mlr)
+mlr_matrix <- confusion_matrix(titanic_mlr)
+mlr_roc <- roc(test$Survived.dum, mlr_probability, plot=FALSE)
+
 mlr_matrix
 model_evaluation(titanic_mlr)
+mlr_roc
 
 # Neural Network:
-nn_matrix <- table(titanic_nn)
+nn_matrix <- confusion_matrix(titanic_nn)
+nn_roc <- roc(test$Survived.dum, nn_probability, plot=FALSE)
+
 nn_matrix
 model_evaluation(titanic_nn)
 plot(nn_model)
+
+# Plot of ROC curves
+ggroc(list(Random.Forest=rf_roc, 
+           Multinomial.Logistic.Regression=mlr_roc, 
+           Neural.Network=nn_roc))

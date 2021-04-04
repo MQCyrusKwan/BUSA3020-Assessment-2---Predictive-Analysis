@@ -35,7 +35,10 @@ model_evaluation <- function(model_df){
     f1 <- 2*(prec*rec)/(prec+rec)
     ca <- sum(diag(table(model_df))/sum(table(model_df)))
 
-    scores_df <- data.frame(precision=prec, recall=rec, f1_score=f1, accuracy=ca)
+    scores_df <- data.frame(precision=prec, 
+                            recall=rec, 
+                            f1_score=f1, 
+                            accuracy=ca)
 
     return(scores_df)
 }
