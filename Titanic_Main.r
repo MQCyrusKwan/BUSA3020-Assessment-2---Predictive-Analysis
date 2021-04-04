@@ -67,6 +67,13 @@ titanic_cleaned$Family.Size <-
 # Creates new column containing the amount of cabins the passenger had
 titanic_cleaned$nCabins <- list_sum_substr(titanic_data$Cabin)
 
+# Code columns as dummy variables
+titanic_cleaned$Survived.dum <- code_column_as_dummy(titanic_cleaned$Survived)-1
+titanic_cleaned$Passenger.Class.dum <- code_column_as_dummy(titanic_cleaned$Passenger.Class)
+titanic_cleaned$Sex.dum <- code_column_as_dummy(titanic_cleaned$Sex)
+titanic_cleaned$Port.of.Embarkation.dum <- code_column_as_dummy(titanic_cleaned$Port.of.Embarkation)
+titanic_cleaned$Normal.Title.dum <- code_column_as_dummy(titanic_cleaned$Normal.Title)
+
 # ------------------------------------------------------------------------------------------|
 # ANALYSIS:
 
@@ -84,7 +91,10 @@ plot_omitting_NA(titanic_data$Port.of.Embarkation)
 plot_omitting_NA(titanic_cleaned$Port.of.Embarkation)
 
 # Histogram of Number of Cabins
-hist(titanic_cleaned$nCabins)
+titanic_cleaned %>%
+    ggplot(aes(x=nCabins, fill=as.factor(nCabins))) +
+    geom_histogram(stat = "count") +
+    ggtitle("Number of Cabins per Passenger")
 
 ## EXPLORATORY ANALYSIS
 
@@ -105,6 +115,13 @@ age_survival_rate %>%
     geom_bar(stat = "identity") +
     ggtitle("Survival Rate by Age Group")
 
+# > Plots Survival by Age
+titanic_cleaned %>%
+    ggplot(aes(x = age_groups, fill = factor(Survived))) +
+    geom_histogram(stat = "count") +
+    ggtitle("Survival and Age") +
+    coord_flip()
+
 # Survival Rate and Sex:
 # > Creates a new dataframe with columns; survival rate, and sex
 sex_survival_rate <- rate_by(titanic_cleaned$Survived.dum, titanic_cleaned$Sex)
@@ -114,6 +131,12 @@ sex_survival_rate %>%
     ggplot(aes(x = groups, y = rate)) +
     geom_bar(stat = "identity") +
     ggtitle("Survival Rate by Sex")
+
+# > Plots Survival by Sex
+titanic_cleaned %>%
+    ggplot(aes(x = Sex, fill = factor(Survived))) +
+    geom_histogram(stat = "count") +
+    ggtitle("Survival and Sex")
 
 # Survival Rate and Passenger Class:
 # > Creates a new dataframe with columns; survival rate, and passenger class
@@ -125,6 +148,12 @@ class_survival_rate %>%
     geom_bar(stat = "identity") +
     ggtitle("Survival Rate by Passenger Class")
 
+# > Plots Survival by Class
+titanic_cleaned %>%
+    ggplot(aes(x = Passenger.Class, fill = factor(Survived))) +
+    geom_histogram(stat = "count") +
+    ggtitle("Survival and Class")
+
 # Survival and Title:
 # > Plots Survival by Title
 titanic_cleaned %>%
@@ -135,19 +164,19 @@ titanic_cleaned %>%
 
 # > Plots Survival by Adjusted Titles
 titanic_cleaned %>%
-    ggplot(aes(x = Passenger_Title, fill = factor(Survived))) +
+    ggplot(aes(x = Normal.Title, fill = factor(Survived))) +
     geom_histogram(stat = "count") +
-    ggtitle("Survival and Title") +
+    ggtitle("Survival and Normalized Title") +
     coord_flip()
 
 # > Plots Survival Rate and Adjusted Titles
 # > Creates a new dataframe with columns; survival rate, and passenger class
-title_survival_rate <- rate_by(titanic_cleaned$Survived.dum, Passenger_Title)
+title_survival_rate <- rate_by(titanic_cleaned$Survived.dum, titanic_cleaned$Normal.Title)
 
 title_survival_rate %>%
     ggplot(aes(x = groups, y = rate)) +
     geom_bar(stat = "identity") +
-    ggtitle("Survival Rate by Title")
+    ggtitle("Survival Rate by Normalized Title")
 
 # Survival and Family Size:
 # > Plot of No. Parents or Children on Board
@@ -233,12 +262,6 @@ port_survival_rate %>%
 # ------------------------------------------------------------------------------------------|
 # DATA SAMPLING:
 
-# Code columns as dummy variables
-titanic_cleaned$Survived.dum <- code_column_as_dummy(titanic_cleaned$Survived)-1
-titanic_cleaned$Passenger.Class.dum <- code_column_as_dummy(titanic_cleaned$Passenger.Class)
-titanic_cleaned$Sex.dum <- code_column_as_dummy(titanic_cleaned$Sex)
-titanic_cleaned$Normal.Title.dum <- code_column_as_dummy(titanic_cleaned$Normal.Title)
-
 # Dropping variables:
 # > Removed Life Boat as it is assumed that the passenger survived if they
 # > were on a life boat
@@ -312,7 +335,7 @@ rf_prediction <- predict(rf_model, newdata=class_test, type="response")
 titanic_rf <- model_df(rf_prediction, test$Survived)
 
 # Multinomial Logistic Regression:
-mlr_model <- multinom(formula=Survived~., data=class_train)
+mlr_model <- multinom(formula=Survived.dum~., data=class_train)
 mlr_probability <- predict(mlr_model, newdata=class_test, type="probs")
 mlr_prediction <- predict(mlr_model, newdata=class_test, type="class")
 
@@ -327,7 +350,6 @@ titanic_nn <- model_df(nn_prediction, test$Survived)
 
 # ------------------------------------------------------------------------------------------|
 # MODEL EVALUATION:
-
 # Random Forest
 rf_matrix <- confusion_matrix(titanic_rf)
 rf_roc <- roc(test$Survived.dum, rf_probability[,"Yes"], plot=FALSE)
@@ -344,9 +366,11 @@ oob.error <- data.frame(
     Error=c(rf_model$err.rate[,"OOB"],
             rf_model$err.rate[,"No"],
             rf_model$err.rate[,"Yes"]))
+summary(oob.error)
 
 ggplot(data=oob.error, aes(x=Trees, y=Error))+
-    geom_line(aes(color=Type))
+    geom_line(aes(color=Type))+
+    ggtitle("Random Forest Error Rate")
 
 # Multinomial Logistic Regression:
 mlr_matrix <- confusion_matrix(titanic_mlr)
@@ -355,6 +379,7 @@ mlr_roc <- roc(test$Survived.dum, mlr_probability, plot=FALSE)
 mlr_matrix
 model_evaluation(titanic_mlr)
 mlr_roc
+auc(mlr_roc)
 
 # Neural Network:
 nn_matrix <- confusion_matrix(titanic_nn)
@@ -362,9 +387,13 @@ nn_roc <- roc(test$Survived.dum, nn_probability, plot=FALSE)
 
 nn_matrix
 model_evaluation(titanic_nn)
+auc(nn_roc)
+
 plot(nn_model)
 
 # Plot of ROC curves
 ggroc(list(Random.Forest=rf_roc, 
            Multinomial.Logistic.Regression=mlr_roc, 
-           Neural.Network=nn_roc))
+           Neural.Network=nn_roc))+
+    ggtitle("ROC Comparison of Models")+
+    geom_abline(intercept=1, slope=1)

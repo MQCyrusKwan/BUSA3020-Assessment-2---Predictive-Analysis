@@ -1,0 +1,6 @@
+          actual
+prediction  No Yes
+       No  215  56
+       Yes  28  93
+  precision    recall  f1_score  accuracy
+1  0.768595 0.6241611 0.6888889 0.7857143

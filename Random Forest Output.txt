@@ -1,0 +1,14 @@
+          actual
+prediction  No Yes
+       No  219  52
+       Yes  24  97
+  precision    recall  f1_score  accuracy
+1 0.8016529 0.6510067 0.7185185 0.8061224
+Area under the curve: 0.8546
+     Trees            Type               Error       
+ Min.   :  1.00   Length:600         Min.   :0.0885  
+ 1st Qu.: 50.75   Class :character   1st Qu.:0.1027  
+ Median :100.50   Mode  :character   Median :0.1672  
+ Mean   :100.50                      Mean   :0.1852  
+ 3rd Qu.:150.25                      3rd Qu.:0.2771  
+ Max.   :200.00                      Max.   :0.3294  
